@@ -29,18 +29,16 @@
 ***
 | Learning Outcome | Proof |
 |:-----------------|:-----:|
-|Web Application| [🔗]()
-|Software quality| [🔗]()
-|Agile Method| [🔗]()
-|CI/CD| [🔗]()
-|Cultural differences and ethics| [🔗]()
-|Requirements and design| [🔗]()
-|Business processes| [🔗]()
-|Professional| [🔗]()
+|Professional duties| [🔗]()
+|Situation-orientation| [🔗]()
+|Future-Oriented Organisation| [🔗]()
+|nvestigative Problem Solving| [🔗]()
+|Personal Leadership| [🔗]()
+|Targeted Interaction| [🔗]()
 
 ## Special credits
 ***
-- [HighTechXL](https://hightechxl.com/) for allowing me to do my internship at their company
+- [HighTechXL](https://hightechxl.com/) for giving me the oppertunity to do my internship at their company.
 - This project utilized the ChatGPT language model developed by [OpenAI](https://openai.com/).
 
 

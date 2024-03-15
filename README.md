@@ -1,6 +1,6 @@
 # Portfolio-S5-Internship
 ***
-<img src="https://thumbs.gfycat.com/SevereEvilDeer-max-1mb.gif" alt="GIF Broke :(" width="50%" height="50%" />
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Sc_Rk5.gif" alt="GIF Broke :(" width="50%" height="50%" />
 
 *by Bram Verkuijlen*
 

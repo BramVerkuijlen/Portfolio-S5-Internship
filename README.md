@@ -15,13 +15,28 @@
 ## Intro
 ***
 
+## What is HighTechXL
+***
+HighTechXL is a deep-tech venture builder that creates deep-tech businesses to solve big societal problems. 
+They bring together technology, top talent, and business knowledge in a program that helps these teams grow. 
+Using their ecosystem, HighTechXL connects ventures with the resources, advice, and customers they need to become a successful ground breaking business.
+
+## Current situation
+***
+HighTexhXl would like to receive a status update every quarter. 
+Currently, the process for collecting quarterly updates from startups is manual, relying on emails and phone calls. 
+This approach has resulted in inconsistent and sometimes incomplete data, making it challenging to get an accurate and comprehensive overview of each startup's progress.
+
 ## The assignment
 ***
+As part of my role at HighTechXL, I'm developing a **Portfolio Tool** to streamline and standardize the quarterly updates from startups. 
+This tool aims to replace outdated manual communications with an automated, standardized system, enhancing data consistency, quality, and analysis capabilities.
 
 ## Research
 ***
 - [How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?]()
-## Projects
+- 
+## Project links
 ***
 
 

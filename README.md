@@ -16,7 +16,7 @@
 ## Intro
 ***
 
-## What is HighTechXL
+## What is [HighTechXL](https://hightechxl.com/)
 ***
 HighTechXL is a deep-tech venture builder that creates deep-tech businesses to solve big societal problems. 
 They bring together technology, top talent, and business knowledge in a program that helps these teams grow. 
@@ -24,7 +24,7 @@ Using their ecosystem, HighTechXL connects ventures with the resources, advice, 
 
 ## The assignment
 ***
-HighTexhXl would like to receive a status update from a venture every quarter. 
+HighTechXl would like to receive a status update from a venture every quarter. 
 Currently, the process for collecting quarterly updates from ventures is manual, relying on emails and phone calls. 
 This approach has resulted in inconsistent and sometimes incomplete data, making it challenging to get an accurate and comprehensive overview of each startup's progress.
 
@@ -34,7 +34,7 @@ This tool aims to replace outdated manual communications with an automated, stan
 ## Research
 ***
 - [How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?]()
-- 
+
 ## Project links
 ***
 

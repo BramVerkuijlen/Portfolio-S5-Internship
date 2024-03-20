@@ -6,11 +6,12 @@
 
 # Table of Contents
 - [Intro](#intro)
+- [What is HighTechXL](#what-is-hightechxl)
 - [The assignment](#the-assignment)
 - [Research](#research)
-- [Projects](#projects)
+- [Project links](#project-links)
 - [Proof of Learning Outcomes](#proof-of-learning-outcomes)
-- [Special Credits](#special-credits)
+- [Special thanks to](#special-thanks-to)
 
 ## Intro
 ***
@@ -21,14 +22,12 @@ HighTechXL is a deep-tech venture builder that creates deep-tech businesses to s
 They bring together technology, top talent, and business knowledge in a program that helps these teams grow. 
 Using their ecosystem, HighTechXL connects ventures with the resources, advice, and customers they need to become a successful ground breaking business.
 
-## Current situation
-***
-HighTexhXl would like to receive a status update every quarter. 
-Currently, the process for collecting quarterly updates from startups is manual, relying on emails and phone calls. 
-This approach has resulted in inconsistent and sometimes incomplete data, making it challenging to get an accurate and comprehensive overview of each startup's progress.
-
 ## The assignment
 ***
+HighTexhXl would like to receive a status update from a venture every quarter. 
+Currently, the process for collecting quarterly updates from ventures is manual, relying on emails and phone calls. 
+This approach has resulted in inconsistent and sometimes incomplete data, making it challenging to get an accurate and comprehensive overview of each startup's progress.
+
 As part of my role at HighTechXL, I'm developing a **Portfolio Tool** to streamline and standardize the quarterly updates from startups. 
 This tool aims to replace outdated manual communications with an automated, standardized system, enhancing data consistency, quality, and analysis capabilities.
 
@@ -51,7 +50,7 @@ This tool aims to replace outdated manual communications with an automated, stan
 |Personal Leadership| [🔗]()
 |Targeted Interaction| [🔗]()
 
-## Special credits
+## Special thanks to
 ***
 - [HighTechXL](https://hightechxl.com/) for giving me the oppertunity to do my internship at their company.
 - This project utilized the ChatGPT language model developed by [OpenAI](https://openai.com/).

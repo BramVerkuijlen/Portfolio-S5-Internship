@@ -1,7 +1,10 @@
 
 # How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?
 ***
-<img src=(https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/exploding%20database.png)>
+<p align="center">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/exploding%20database.png" alt="IMG Broke :(" width="50%" height="50%" />
+</p>
+
 ## Introduction
 
 HighTechXL is facing significant challenges in keeping pace with its data management demands during its rapid expansion. The organization's dependency on a large Excel file for storing crucial data about the startups it supports has become increasingly problematic. What once was an efficient system has now become unwieldy due to fast-paced growth, resulting in a file cluttered with outdated information and a slow, error-prone manual update process.

@@ -1,9 +1,11 @@
 
 # How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?
-***
+
 <p align="center">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/exploding%20database.png" alt="IMG Broke :(" width="50%" height="50%" />
 </p>
+
+***
 
 ## Introduction
 

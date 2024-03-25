@@ -1,6 +1,8 @@
 # Portfolio-S5-Internship
 
+<p align="center">
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Sc_Rk5.gif" alt="GIF Broke :(" width="50%" height="50%" />
+<p/>
 
 *by Bram Verkuijlen*
 ***

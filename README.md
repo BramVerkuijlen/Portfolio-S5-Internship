@@ -7,7 +7,7 @@
 # Updated Table of Contents
 - [Intro](#intro)
 - [What is HighTechXL?](#what-is-hightechxl)
-- [The Assignment](#the-assignment)
+- [The assignment](#the-assignment)
 - [Research](#research)
 - [The Project](#the-project)
 - [Personal Reflection](#personal-reflection)

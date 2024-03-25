@@ -49,12 +49,12 @@ This tool aims to replace outdated manual communications with an automated, stan
 
 | Learning Outcome               | Proof                                                                                           |
 |:-------------------------------|:------------------------------------------------------------------------------------------------|
-| **Professional Duties**        | [📄](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Professional%20duties.md) |
-| **Situation Orientation**      | [📄](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Situation-orientation.md) |
-| **Future-Oriented Organisation**| [📄](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Future-Oriented%20Organisation.md) |
-| **Investigative Problem Solving**| [📄](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Investigative%20Problem%20Solving.md) |
-| **Personal Leadership**        | [📄](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Personal%20Leadership.md) |
-| **Targeted Interaction**       | [📄](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Targeted%20Interaction.md) |
+| **Professional Duties**        | [📚](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Professional%20duties.md) |
+| **Situation Orientation**      | [📚](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Situation-orientation.md) |
+| **Future-Oriented Organisation**| [📚](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Future-Oriented%20Organisation.md) |
+| **Investigative Problem Solving**| [📚](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Investigative%20Problem%20Solving.md) |
+| **Personal Leadership**        | [📚](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Personal%20Leadership.md) |
+| **Targeted Interaction**       | [📚](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/LearningOutcomes/Targeted%20Interaction.md) |
 
 
 ## Special thanks to

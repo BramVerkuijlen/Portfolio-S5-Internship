@@ -20,13 +20,43 @@ While the use of PowerBI for communicating with investors does offer structured 
 These issues underscore the urgent need for HighTechXL to adopt a more advanced information management solution. The current system's limitations, including difficulties with using PowerBI effectively due to outdated fields and the unwieldy nature of the Excel database, highlight the necessity for a streamlined and efficient approach to data management to support the organization's continued growth.
 
 ## What storage solution would work best with PowerBI?
+Given HighTechXL's current challenges with managing and retrieving data efficiently, integrating a structured storage system is hat works efficiently with PowerBI it is essential
+to choose a storage solution that not only provides the necessary structural support but also integrates seamlessly with PowerBI. 
 
-## Which information does HighTechXL need from their ventures?
+### PowerBI data sources
+PowerBI supports a wide range of data sources, including cloud-based services, online services, and direct connections to databases. 
+This versatility is crucial for HighTechXL, as it allows for flexibility in choosing a database solution that can provide the necessary structured storage while ensuring compatibility with PowerBI for advanced data analytics and visualization.
+
+### Database
+
+For HighTechXL, leveraging a database system is essential to overcome the limitations of the current Excel-based data management approach. 
+A database will offer a more robust, scalable, and efficient method of storing, managing, and retrieving data.
+
+A database, as opposed to simpler file or blob storage solutions, offers structured data management, enabling complex queries, relationship mapping between different data types, and transactional integrity. This structured approach is particularly beneficial for HighTechXL, given the varied and relational nature of the data involved—spanning startup details, investment information, and performance metrics. Databases support indexing, which dramatically improves the speed and efficiency of data retrieval operations, a critical factor for real-time analysis and decision-making.
+
+### what type of database
+
+htxl needs a good structured database that can handle all the information they would like to store. a database like mongo db can store files and is easyer in relations unfortionately powerbi doesnt fully support mongo db as of yet
+
+SQL/MySQL
+PostgreSQL
+PostgreSQL
+
+### how does the database look
+
 
 ## What is the best way to manage Venture information?
 
 ## What would be the best way to gather venture information?
 
+### Automated collection
+
+### Manual collection
 
 
 ## Conclusion
+
+
+## sources
+
+- [PowerBI](https://learn.microsoft.com/en-us/power-bi/)

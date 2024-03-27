@@ -39,8 +39,11 @@ A database, as opposed to simpler file or blob storage solutions, offers structu
 htxl needs a good structured database that can handle all the information they would like to store. a database like mongo db can store files and is easyer in relations unfortionately powerbi doesnt fully support mongo db as of yet
 
 SQL/MySQL
+
+AzureSQL
+
 PostgreSQL
-PostgreSQL
+https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources
 
 ### how does the database look
 

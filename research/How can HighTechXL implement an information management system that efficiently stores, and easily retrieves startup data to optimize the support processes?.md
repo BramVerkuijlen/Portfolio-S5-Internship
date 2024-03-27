@@ -5,6 +5,8 @@
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/exploding%20database.png" alt="IMG Broke :(" width="50%" height="50%" />
 </p>
 
+*[Canva](https://www.canva.com) AI Picture Generation Tool*
+
 ***
 
 ## Introduction
@@ -17,14 +19,14 @@ While the use of PowerBI for communicating with investors does offer structured 
 
 These issues underscore the urgent need for HighTechXL to adopt a more advanced information management solution. The current system's limitations, including difficulties with using PowerBI effectively due to outdated fields and the unwieldy nature of the Excel database, highlight the necessity for a streamlined and efficient approach to data management to support the organization's continued growth.
 
-## System Requirements and Features
+## What storage solution would work best with PowerBI?
 
-##  Data Structure and Organization
+## Which information does HighTechXL need from their ventures?
 
-## Integration and Compatibility
+## What is the best way to manage Venture information?
 
-## User Access and Interaction
+## What would be the best way to gather venture information?
 
-## Maintenance and Updates
+
 
 ## Conclusion

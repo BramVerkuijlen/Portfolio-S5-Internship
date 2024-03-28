@@ -52,6 +52,8 @@ https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources
 
 ## What would be the best way to gather venture information?
 
+winforms or google forms wont work (they are to strict and would take to long to fill in because they are not reactive)
+
 ### Automated collection
 
 ### Manual collection

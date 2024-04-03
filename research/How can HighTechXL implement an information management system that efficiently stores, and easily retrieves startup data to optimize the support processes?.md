@@ -83,8 +83,8 @@ winforms or google forms wont work (they are to strict and would take to long to
 
 ## References
 
-- Amazon Web Services. What is SQL?. Retrieved from https://aws.amazon.com/what-is/sql/
-- Microsoft. Power BI Documentation. Retrieved from https://learn.microsoft.com/en-us/power-bi/
-- Microsoft. SQL Server Documentation. Retrieved from https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
-- The Knowledge Academy. What are the dvantages of SQL?. Retrieved from https://www.theknowledgeacademy.com/blog/advantages-of-sql/
+- Amazon Web Services. What is SQL?: Retrieved from https://aws.amazon.com/what-is/sql/
+- Microsoft. Power BI Documentation: Retrieved from https://learn.microsoft.com/en-us/power-bi/
+- Microsoft. SQL Server Documentation: Retrieved from https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+- The Knowledge Academy: What are the dvantages of SQL?. Retrieved from https://www.theknowledgeacademy.com/blog/advantages-of-sql/
 

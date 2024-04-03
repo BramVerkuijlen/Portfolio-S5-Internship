@@ -59,9 +59,6 @@ SQL databases support temporal tables, valuable for HighTechXL in maintaining a 
 
 In summary, adopting a SQL database aligns well with HighTechXL's requirements for a robust, scalable, and efficient information management system.
 
-### how does the database look
-
-
 ## What is the best way to manage Venture information?
 
 ## What would be the best way to gather venture information?

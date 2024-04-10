@@ -129,15 +129,15 @@ There are multiple options that would work for HighTechXL.
 
 ## References
 
-1 Amazon Web Services. "What is SQL?" (03-04-2024): https://aws.amazon.com/what-is/sql/
-2 Microsoft. "Power BI Documentation" (03-04-2024): https://learn.microsoft.com/en-us/power-bi/
-3 Microsoft. "SQL Server Documentation" (03-04-2024): https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
-4 The Knowledge Academy. "What are the advantages of SQL?" (03-04-2024): https://www.theknowledgeacademy.com/blog/advantages-of-sql/
-5 Google Forms. (10-04-2024): https://www.google.com/forms/about/
-6 Microsoft Forms. (10-04-2024): https://learn.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes?view=o365-worldwide
-7 Content Snare. "Google Forms vs Microsoft Forms." (10-04-2024): https://contentsnare.com/google-forms-vs-microsoft-forms/
-8 Zapier. "Best Online Form Builder Software." (10-04-2024): https://zapier.com/blog/best-online-form-builder-software/
-9 Feathery. (10-04-2024): https://www.feathery.io/
-10 Kamee software (10-04-2024): https://kamee-software.com/blog/bespoke-web-applications
+1. Amazon Web Services. "What is SQL?" (03-04-2024): https://aws.amazon.com/what-is/sql/
+2. Microsoft. "Power BI Documentation" (03-04-2024): https://learn.microsoft.com/en-us/power-bi/
+3. Microsoft. "SQL Server Documentation" (03-04-2024): https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+4. The Knowledge Academy. "What are the advantages of SQL?" (03-04-2024): https://www.theknowledgeacademy.com/blog/advantages-of-sql/
+5. Google Forms. (10-04-2024): https://www.google.com/forms/about/
+6. Microsoft Forms. (10-04-2024): https://learn.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes?view=o365-worldwide
+7. Content Snare. "Google Forms vs Microsoft Forms." (10-04-2024): https://contentsnare.com/google-forms-vs-microsoft-forms/
+8. Zapier. "Best Online Form Builder Software." (10-04-2024): https://zapier.com/blog/best-online-form-builder-software/
+9. Feathery. (10-04-2024): https://www.feathery.io/
+10. Kamee software (10-04-2024): https://kamee-software.com/blog/bespoke-web-applications
 
 

@@ -23,7 +23,7 @@ These issues underscore the urgent need for HighTechXL to adopt a more advanced 
 ----------------
 ## What would be the best way to gather venture information?
 
-winforms or google forms wont work (they are to strict and would take to long to fill in because they are not reactive)
+For HighTechXL, effectively gathering venture information from startups, each with its own unique business operations and data management practices, presents distinct challenges. The key is to implement methods that are flexible, user-friendly, and efficient, encouraging cooperation from the startups without exerting control over their operations. This makes it verry hard to automaticly collect venture data. 
 
 ### Automated collection
 
@@ -77,6 +77,13 @@ In summary, adopting a SQL database aligns well with HighTechXL's requirements f
 What is the Best Way to Manage Venture Information?
 
 Given that most people working at HighTechXL are not be familiar with SQL or a database, it's essential to provide a means for easy access and modification of database information beyond what's available in PowerBI, especially for things not implemented in the the Portfolio Tool. To address this a user-friendly database management tool or interface needs to be implemented. Such a tool should simplify the process of interacting with the database, allowing users to view, update, and manage venture data without needing to directly engage with SQL queries or understand the underlying database structure.
+
+There are multiple options that would work for HighTechXL.
+
+*I think the best would still be a web app (implemented in venture journey)*
+
+
+
 -------------
 
 ## Conclusion

@@ -104,10 +104,8 @@ While form builders like Google Forms and Microsoft Forms provide simplicity and
 
 Developing this bespoke web application and integrating it with the Venture Journey Tool requires a concerted effort in terms of development resources and time. However, the investment is justified by the significant benefits it brings in terms of data management efficiency, user experience, and the ability to provide targeted support to startups at every stage of their journey.
 <sub>[10]</sub>
-----------------
 
-
--------------
+***
 ## What is the best way to manage Venture information?
 
 What is the Best Way to Manage Venture Information?
@@ -117,10 +115,6 @@ Given that most people working at HighTechXL are not be familiar with SQL or a d
 There are multiple options that would work for HighTechXL.
 
 *I think the best would still be a web app (implemented in venture journey)*
-
-
-
--------------
 
 ## Conclusion
 

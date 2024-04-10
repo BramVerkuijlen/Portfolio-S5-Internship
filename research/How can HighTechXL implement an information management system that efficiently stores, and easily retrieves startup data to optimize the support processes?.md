@@ -19,6 +19,18 @@ While the use of PowerBI for communicating with investors does offer structured 
 
 These issues underscore the urgent need for HighTechXL to adopt a more advanced information management solution. The current system's limitations, including difficulties with using PowerBI effectively due to outdated fields and the unwieldy nature of the Excel database, highlight the necessity for a streamlined and efficient approach to data management to support the organization's continued growth.
 
+
+----------------
+## What would be the best way to gather venture information?
+
+winforms or google forms wont work (they are to strict and would take to long to fill in because they are not reactive)
+
+### Automated collection
+
+### Manual collection
+----------------
+
+
 ## What storage solution would work best with PowerBI?
 
 Given HighTechXL's current challenges in managing and retrieving data efficiently, integrating a structured storage system that works efficiently with PowerBI is essential. Choosing a storage solution that provides the necessary structural support while also integrating seamlessly with PowerBI is critical.
@@ -59,16 +71,13 @@ SQL databases support temporal tables, valuable for HighTechXL in maintaining a 
 
 In summary, adopting a SQL database aligns well with HighTechXL's requirements for a robust, scalable, and efficient information management system.
 
+-------------
 ## What is the best way to manage Venture information?
 
-## What would be the best way to gather venture information?
+What is the Best Way to Manage Venture Information?
 
-winforms or google forms wont work (they are to strict and would take to long to fill in because they are not reactive)
-
-### Automated collection
-
-### Manual collection
-
+Given that most people working at HighTechXL are not be familiar with SQL or a database, it's essential to provide a means for easy access and modification of database information beyond what's available in PowerBI, especially for things not implemented in the the Portfolio Tool. To address this a user-friendly database management tool or interface needs to be implemented. Such a tool should simplify the process of interacting with the database, allowing users to view, update, and manage venture data without needing to directly engage with SQL queries or understand the underlying database structure.
+-------------
 
 ## Conclusion
 

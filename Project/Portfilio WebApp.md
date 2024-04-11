@@ -23,7 +23,7 @@ Wasnt great having everything underneath eachother so moved back to a stepper fo
 ## Third Iteration & Proof of Concept Build
 
 categorizing all fields
-![alt text]()
+![alt text](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/20240402_161600.jpg)
 
 
 using material and a nice looking stepper. also the first POC build that was made available using azure and github actions

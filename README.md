@@ -39,8 +39,8 @@ This tool aims to replace outdated manual communications with an automated, stan
 
 ## The project
 
-- [Front-end]()
-- [Back-end and Database]()
+- [Portfolio WebbApp](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/Portfilio%20WebApp.md)
+- [Api and database](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/Api%20and%20Database.md)
 
 ## Personal reflection 
 

@@ -39,6 +39,9 @@ This tool aims to replace outdated manual communications with an automated, stan
 
 ## The project
 
+- [Front-end]()
+- [Back-end and Database]()
+
 ## Personal reflection 
 
 ## Conclusion

@@ -35,7 +35,6 @@ This tool aims to replace outdated manual communications with an automated, stan
 
 ## Research
 - [How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/research/How%20can%20HighTechXL%20implement%20an%20information%20management%20system%20that%20efficiently%20stores%2C%20and%20easily%20retrieves%20startup%20data%20to%20optimize%20the%20support%20processes%3F.md)
-- [Transfering data from excel to a database]()
 
 ## The project
 

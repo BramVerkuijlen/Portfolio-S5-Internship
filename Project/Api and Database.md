@@ -13,5 +13,6 @@ Databas first
 
 ## Second Itteration after POC webapp
 
+![alt text](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png)
 Code First 
 using POC build as a guideLine

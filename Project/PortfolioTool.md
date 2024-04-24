@@ -51,7 +51,6 @@ We used Git for version control with the following branching strategy...
 ### Features Implemented
 
 ### Screenshots
-![Dashboard](/path/to/screenshot.png)
 
 ***
 ## 5. Challenges and Solutions

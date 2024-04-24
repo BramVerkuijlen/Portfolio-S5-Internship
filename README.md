@@ -47,7 +47,9 @@ This tool aims to replace outdated manual communications with an automated, stan
 ***
 ## The project
 
-- [Portfolio Tool](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md)
+- [Front-end](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md)
+
+- [Back-end](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/Api%20and%20Database.md)
 
 ***
 ## Personal reflection 

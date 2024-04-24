@@ -11,7 +11,7 @@
 - [What is HighTechXL?](#what-is-hightechxl)
 - [The assignment](#the-assignment)
 - [Research](#research)
-- [The Project](#the-project)
+- [Projects](#projects)
 - [Personal Reflection](#personal-reflection)
 - [Conclusion](#conclusion)
 - [Project Links](#project-links)

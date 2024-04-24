@@ -1,6 +1,34 @@
 # Portfolio Tool
 
 ***
+## Table of Contents
+1. [Project Overview](#1-project-overview)
+   - [Purpose](#purpose)
+   - [Role](#role)
+2. [Technical Details](#2-technical-details)
+   - [Architecture Diagrams](#architecture-diagrams)
+   - [Technology Stack](#technology-stack)
+3. [Development Process](#3-development-process)
+   - [Methodology](#methodology)
+   - [Version Control](#version-control)
+4. [Key Features and Functionality](#4-key-features-and-functionality)
+   - [Features Implemented](#features-implemented)
+   - [Screenshots](#screenshots)
+5. [Challenges and Solutions](#5-challenges-and-solutions)
+   - [Problems Encountered](#problems-encountered)
+   - [Solutions Implemented](#solutions-implemented)
+6. [Project Outcomes and Impact](#6-project-outcomes-and-impact)
+   - [Results](#results)
+   - [Impact](#impact)
+7. [Lessons Learned](#7-lessons-learned)
+   - [Technical Skills](#technical-skills)
+   - [Project Management Insights](#project-management-insights)
+   - [Future Improvements](#future-improvements)
+8. [Additional Contributions](#8-additional-contributions)
+   - [Beyond the Project](#beyond-the-project)
+   - [Networking and Professional Growth](#networking-and-professional-growth)
+
+***
 ## 1. Project Overview
 
 ### Purpose

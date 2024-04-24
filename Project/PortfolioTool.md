@@ -50,7 +50,6 @@ This role provided me with significant hands-on experience in managing a full-cy
 ***
 ## 2. Technical Details
 ### Architecture Diagrams
-![Architecture](/path/to/architecture.png)
 
 ### Technology Stack
 

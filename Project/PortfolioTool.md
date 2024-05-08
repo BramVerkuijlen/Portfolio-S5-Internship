@@ -68,6 +68,13 @@ For development and testing of new features or updates, I utilized separate bran
 **NULL**
 
 ## Key Features and Functionality
+
+### Loading previous data
+**NULL**
+
+###  Investment form
+**NULL**
+
 ### Features Implemented
 **NULL**
 

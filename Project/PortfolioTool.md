@@ -1,35 +1,20 @@
 # Portfolio Tool
 
-
-
 ***
 ## Table of Contents
-1. [Project Overview](#1-project-overview)
-   - [Purpose](#purpose)
-   - [Role](#role)
-2. [Technical Details](#2-technical-details)
-   - [Architecture Diagrams](#architecture-diagrams)
-   - [Technology Stack](#technology-stack)
-3. [Development Process](#3-development-process)
-   - [Methodology](#methodology)
-   - [Version Control](#version-control)
-4. [Key Features and Functionality](#4-key-features-and-functionality)
-   - [Features Implemented](#features-implemented)
-   - [Screenshots](#screenshots)
-5. [Challenges and Solutions](#5-challenges-and-solutions)
-6. [Project Outcomes and Impact](#6-project-outcomes-and-impact)
-   - [Results](#results)
-   - [Impact](#impact)
-7. [Lessons Learned](#7-lessons-learned)
-   - [Technical Skills](#technical-skills)
-   - [Project Management Insights](#project-management-insights)
-   - [Future Improvements](#future-improvements)
-8. [Additional Contributions](#8-additional-contributions)
-   - [Beyond the Project](#beyond-the-project)
-   - [Networking and Professional Growth](#networking-and-professional-growth)
+- [Project Overview](#project-overview)  
+- [Technical Details](#technical-details)
+- [Project Management](#project-management)
+- [Key Features and Functionality](#key-features-and-functionality)
+- [Challenges and Solutions](#challenges-and-solutions)
+- [Project Outcomes and Impact](#project-outcomes-and-impact)
+- [Lessons Learned](#lessons-learned)
+- [Additional Contributions](#additional-contributions)
+
+<small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>
 
 ***
-## 1. Project Overview
+## Project Overview
 
 ### Purpose
 
@@ -48,11 +33,11 @@ As the main developer of the Portfolio Tool, I was responsible for all aspects o
 This role provided me with significant hands-on experience in managing a full-cycle development project, honing my technical skills and understanding of effective team collaboration.
 
 ***
-## 2. Technical Details
+## Technical Details
+
 ### Architecture Diagrams
 
 ### Technology Stack
-
 The development of the Portfolio Tool involved using a blend of technologies that were already familiar within HighTechXL, alongside some new adaptations to meet the specific needs of the project.
 
 - **Frontend**: The frontend of the application was developed using AngularJS and TypeScript, a choice driven by its existing use within HighTechXL. This provided a consistent framework that aligns with other projects and applications within the organization. Material Components were integrated for styling, enhancing the user interface with a modern and responsive design. Additionally, TailwindCSS was incorporated early in the development to assist with the styling of the application.
@@ -63,24 +48,29 @@ The development of the Portfolio Tool involved using a blend of technologies tha
 
 Further technical and strategic justifications for choosing this specific technology stack and the design of the web application over alternatives such as a form builder are detailed in my research document ["How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?"](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/research/How%20can%20HighTechXL%20implement%20an%20information%20management%20system%20that%20efficiently%20stores%2C%20and%20easily%20retrieves%20startup%20data%20to%20optimize%20the%20support%20processes%3F.md). This research gives more insight on some of the technological decisions made.
 
-
-
 ***
-## 3. Development Process
-### Methodology
-We adopted an Agile Scrum methodology with...
+## Project Management
+### Methodology 
+Initially, I used a Agile Scrum methodology for managing the portfolio project, suing a structures I had used in a previous project (found in [this document](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md)).
+
+However, as the project evolved, it became clear that the rapidly changing requirements and the fact that I was working solo made the structured Scrum approach less practical. The frequent changes and immediate decision-making did not align well with the structured sprint planning. Therefore, I decided to step away from using a strict Agile methodology.
+
+Transitioning to a more fluid approach allowed for quicker responses to changing needs and more direct incorporation of new ideas and solutions as they arose. Despite moving away from formal Agile practices, I maintained a structured update and feedback rhythm by attending HighTechXL’s weekly scrum meetings, which kept everyone up-to-date. Additionally, I held weekly meetings with the portfolio manager to discuss specific project details and had frequent discussions with my company mentor.
 
 ### Version Control
-We used Git for version control with the following branching strategy...
+In managing the version control for my project, I utilized Git with a straightforward branching strategy that was well-suited to solo development. The master branch functioned as the main build branch, reserved exclusively for stable versions of the software. This ensured that the master branch was always reliable and production-ready.
+
+For development and testing of new features or updates, I utilized separate branches. This approach allowed me to freely experiment and refine functionalities without impacting the stability of the master branch. Each feature was developed in its own branch and only merged into master once it had been fully tested and confirmed stable. This branching strategy effectively maintained the integrity of the main project while allowing for continuous development and improvement.
 
 ***
-## 4. Key Features and Functionality
+## Developement process
+## Key Features and Functionality
 ### Features Implemented
 
 ### Screenshots
 
 ***
-## 5. Challenges and Solutions
+## Challenges and Solutions
 
 ### Component Library Limitations
 Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Preline's full system to make creating comoponents easier. Unfortionately, I encountered compatibility issues with Angular, some of the components that preline provided wouldnt work with angulars reactive forms. Because of this I switched to Flowbite, where I only used their styling without installing any plugins, allowing me to easilly style my components without the risk of the plugin not working with angular.
@@ -110,7 +100,7 @@ After some consideration, I decided to develop a portion of the login system. I 
 
 
 ***
-## 6. Project Outcomes and Impact
+## Project Outcomes and Impact
 ### Results
 The project successfully...
 
@@ -118,7 +108,7 @@ The project successfully...
 This resulted in...
 
 ***
-## 7. Lessons Learned
+## Lessons Learned
 ### Technical Skills
 I enhanced my skills in...
 
@@ -129,7 +119,7 @@ One key insight from managing this project was...
 In future projects, we could...
 
 ***
-## 8. Additional Contributions
+## Additional Contributions
 ### Beyond the Project
 During the project, I also participated in...
 

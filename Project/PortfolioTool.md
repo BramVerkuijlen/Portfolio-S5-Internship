@@ -82,29 +82,16 @@ We used Git for version control with the following branching strategy...
 ***
 ## 5. Challenges and Solutions
 
-### Problems Encountered
+### Component Library Limitations
+Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Preline's full system to make creating comoponents easier. Unfortionately, I encountered compatibility issues with Angular, some of the components that preline provided wouldnt work with angulars reactive forms. Because of this I switched to Flowbite, where I only used their styling without installing any plugins, allowing me to easilly style my components without the risk of the plugin not working with angular.
 
-1. **Component Library Limitations**: My initial lack of experience with HTML, CSS, and TailwindCSS made it challenging to quickly develop effective UI components. Consequently, I first incorporated Preline to simplify UI development. As I gained more experience, I transitioned to using Flowbite's styling for better control over the appearance, though without adopting its full plugin system.
+As the project grew to include more sophisticated components like a stepper or multi selects, I needed a more robust solution that was guaranteed to work seamlessly with Angular. This led to my decision to adopt Angular Material. Angular Material not only offered a sleek and straightforward design but also provided the certainty of complete compatibility with Angular. This ensured that I could implement the more complex components needed for the project.
 
-2. **Complex Component Requirements**: As the project's requirements evolved, especially the need to integrate complex components like steppers, the purely stylistic solutions offered by Flowbite proved insufficient. This necessitated a further switch to Material components, which offered comprehensive functionality and seamless integration with Angular and reactive forms.
+### Database Versioning
+Manual versioning of the database was complex and error-prone, especially for tracking changes over time in the venture data.
+Temporal Tables for Versioning We implemented temporal tables in SQL Server to automate database versioning. This feature automatically tracks changes, simplifying the management of historical data and ensuring data integrity without manual efforts.
 
-3. **CORS Errors**: CORS errors initially complicated the connection between the frontend and the API, which hampered testing and integration.
-
-4. **Database Migration Issues**: I faced difficulties with the database-first approach during updates, as models and context files did not align with evolving project requirements.
-
-5. **Database Versioning**: Manual versioning of the database was complex and error-prone, especially for tracking changes over time in the venture data.
-
-### Solutions Implemented
-
-1. **Component Library Transitions**: To accommodate my initial inexperience with front-end styling and subsequent needs for more advanced functionality, we transitioned from Preline to Flowbite's styling, and ultimately to Material components. This progression not only enhanced the UI/UX but also supported the integration of more complex functional components required by the project.
-
-2. **CORS Configuration**: To address the CORS issues, additional configurations were added to the API, setting up proper CORS policies to facilitate secure resource sharing between the frontend and backend.
-
-3. **Shift to Code-First Approach**: The database-first approach was replaced by a code-first approach due to its flexibility in handling schema changes. This shift allowed for automatic migrations and easier management of the evolving database schema.
-
-4. **Temporal Tables for Versioning**: We implemented temporal tables in SQL Server to automate database versioning. This feature automatically tracks changes, simplifying the management of historical data and ensuring data integrity without manual efforts.
-
-These changes and improvements not only solved the initial problems but also enhanced the overall system's functionality, making the Portfolio Tool more robust and efficient.
+### 
 
 
 

@@ -1,5 +1,7 @@
 # Portfolio Tool
 
+
+
 ***
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
@@ -135,3 +137,5 @@ During the project, I also participated in...
 
 ### Networking and Professional Growth
 This project allowed me to...
+
+<small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

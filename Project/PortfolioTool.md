@@ -87,12 +87,26 @@ Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Prel
 
 As the project grew to include more sophisticated components like a stepper or multi selects, I needed a more robust solution that was guaranteed to work seamlessly with Angular. This led to my decision to adopt Angular Material. Angular Material not only offered a sleek and straightforward design but also provided the certainty of complete compatibility with Angular. This ensured that I could implement the more complex components needed for the project.
 
+### Linking portfolios
+After completing my initial proof of concept, I started to flesh out the functionality of what was initially called a "venture" but has since been renamed "portfolio." One of the earliest and most challenging issues I faced was linking these portfolios to specific start-ups.
+
+In response, my supervisor, Jordy, and I initially considered integrating the portfolio tool with HighTechXL's existing "venture journey" system. This system already had a working login system created by Jordy, which seemed like a practical solution. However, integrating these systems felt problematic as we aimed to keep the two applications as separate as possible to avoid any operational conflicts.
+
+This encouraged me to lokk for an alternative solution. I decided to rename the original venture table to "portfolio" and created a new venture table equipped with an ID. This new structure mirrored what HighTechXL employed in their venture journey, effectively resembling a user table found in standard applications. This change finally provided a coherent way to link a portfolio to specific venture, resolving the initial functional issues and enhancing the overall system architecture.
+
 ### Database Versioning
-Manual versioning of the database was complex and error-prone, especially for tracking changes over time in the venture data.
-Temporal Tables for Versioning We implemented temporal tables in SQL Server to automate database versioning. This feature automatically tracks changes, simplifying the management of historical data and ensuring data integrity without manual efforts.
+Because HightechXL was using a excel file as their main way to store data tehy lacked any kind of versioning. While versioning wasn't initially a requirement, I realized its potential benefits in tracking a venture's progress and aiding in securing investors. One of the solutions I considered was the use of temporal tables. This SQL Server feature seemed promising due to its seamless integration with my database structure and compatibility with PowerBI, which would facilitate historical data management and ensure data integrity.
 
-### 
+However, during the development of my second proof of concept, I introduced an extra "venture" table to improve the system's architecture (as described in the previous alinea on "Linking Portfolios"). This modification complicated the use of temporal tables because they are most effective when updating existing data, not when linking new data entries.
 
+To adapt, I revised the database structure to not use temporal tables. Instead, I linked multiple portfolios to a single venture and added a 'date submitted' column. This approach effectively allowed for tracking changes over time without the complexity of temporal tables, maintaining the ability to observe historical changes across different data submissions, thus mimicking the versioning effect I aimed to achieve. This change also came with the benifit that HightechXL could now also change certain portfolio information without it effecting the temporal history table.
+
+### Login
+Implementing the second proof of concept build, which was designed to collect and store data, presented several challenges. Initially, the application setup was too simplistic, using only an ID as an identifier. This method was inherently insecure as the ID could easily be guessed by potential attackers, potentially exposing sensitive data. Given the complexity and time requirements to develop a full-fledged login system, I initially opted not to host the application online. Instead, I chose to run it locally on my laptop via localhost, recognizing that this was not an ideal solution.
+
+During discussions with my school mentor Thijs, we looked at several potential solutions to enhance security without committing extensive resources to develop a complete login system. Among the options considered were implementing Google's OAuth for authentication, creating a simplified custom login system, or enhancing server security to protect the application.
+
+After some consideration, I decided to develop a portion of the login system. I chose to manually create login credentials for each venture. By assigning secure usernames and passwords, I could ensure that only I had the authority to distribute access credentials directly to the ventures. This approach significantly minimized the risk of unauthorized access by third parties.
 
 
 ***

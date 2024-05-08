@@ -17,7 +17,6 @@
 ## Project Overview
 
 ### Purpose
-
 The primary purpose of this project is to develop the "Portfolio Tool" during my internship at HighTechXL. As a software engineering student, my goal is to automate and standardize the collection of quarterly updates from startups, which has traditionally been handled manually through emails and phone calls. This manual process often resulted in inconsistent and sometimes incomplete data, complicating the task of maintaining an up-to-date and clear view of each startup's progress within the HighTechXL ecosystem. Such inconsistencies also hindered HighTechXL's ability to provide necessary data to potential investors.
 
 The Portfolio Tool is designed to replace these outdated manual communications with an automated, standardized system that ensures data consistency and quality. Additionally, the tool addresses the crucial need for effective information storage, enabling HighTechXL to maintain a robust database of venture updates that can be easily accessed and managed. This enhancement will facilitate better support and resources allocation within the HighTechXL ecosystem.
@@ -36,6 +35,7 @@ This role provided me with significant hands-on experience in managing a full-cy
 ## Technical Details
 
 ### Architecture Diagrams
+**NULL**
 
 ### Technology Stack
 The development of the Portfolio Tool involved using a blend of technologies that were already familiar within HighTechXL, alongside some new adaptations to meet the specific needs of the project.
@@ -64,10 +64,12 @@ For development and testing of new features or updates, I utilized separate bran
 
 ***
 ## Developement process
+
+**NULL**
+
 ## Key Features and Functionality
 ### Features Implemented
-
-### Screenshots
+**NULL**
 
 ***
 ## Challenges and Solutions
@@ -102,28 +104,28 @@ After some consideration, I decided to develop a portion of the login system. I 
 ***
 ## Project Outcomes and Impact
 ### Results
-The project successfully...
+**NULL**
 
 ### Impact
-This resulted in...
+**NULL**
 
 ***
 ## Lessons Learned
 ### Technical Skills
-I enhanced my skills in...
+**NULL**
 
 ### Project Management Insights
-One key insight from managing this project was...
+**NULL**
 
 ### Future Improvements
-In future projects, we could...
+**NULL**
 
 ***
 ## Additional Contributions
 ### Beyond the Project
-During the project, I also participated in...
+**NULL**
 
 ### Networking and Professional Growth
-This project allowed me to...
+**NULL**
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

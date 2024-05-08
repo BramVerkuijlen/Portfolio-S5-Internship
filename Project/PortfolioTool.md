@@ -51,7 +51,7 @@ Further technical and strategic justifications for choosing this specific techno
 ***
 ## Project Management
 ### Methodology 
-Initially, I used a Agile Scrum methodology for managing the portfolio project, suing a structures I had used in a previous project (found in [this document](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md)).
+Initially, I used a Agile Scrum methodology for managing the portfolio project, suing a structures I had used in a previous project ([portfolio S3 agile method](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md)).
 
 However, as the project evolved, it became clear that the rapidly changing requirements and the fact that I was working solo made the structured Scrum approach less practical. The frequent changes and immediate decision-making did not align well with the structured sprint planning. Therefore, I decided to step away from using a strict Agile methodology.
 

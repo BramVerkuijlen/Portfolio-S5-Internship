@@ -17,8 +17,6 @@
    - [Features Implemented](#features-implemented)
    - [Screenshots](#screenshots)
 5. [Challenges and Solutions](#5-challenges-and-solutions)
-   - [Problems Encountered](#problems-encountered)
-   - [Solutions Implemented](#solutions-implemented)
 6. [Project Outcomes and Impact](#6-project-outcomes-and-impact)
    - [Results](#results)
    - [Impact](#impact)

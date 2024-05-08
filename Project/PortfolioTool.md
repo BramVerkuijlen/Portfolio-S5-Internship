@@ -9,7 +9,6 @@
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Project Outcomes and Impact](#project-outcomes-and-impact)
 - [Lessons Learned](#lessons-learned)
-- [Additional Contributions](#additional-contributions)
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>
 
@@ -112,7 +111,6 @@ During discussions with my school mentor Thijs, we looked at several potential s
 
 After some consideration, I decided to develop a portion of the login system. I chose to manually create login credentials for each venture. By assigning secure usernames and passwords, I could ensure that only I had the authority to distribute access credentials directly to the ventures. This approach significantly minimized the risk of unauthorized access by third parties.
 
-
 ***
 ## Project Outcomes and Impact
 ### Results
@@ -123,21 +121,8 @@ After some consideration, I decided to develop a portion of the login system. I 
 
 ***
 ## Lessons Learned
+
 ### Technical Skills
-**NULL**
-
-### Project Management Insights
-**NULL**
-
-### Future Improvements
-**NULL**
-
-***
-## Additional Contributions
-### Beyond the Project
-**NULL**
-
-### Networking and Professional Growth
 **NULL**
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

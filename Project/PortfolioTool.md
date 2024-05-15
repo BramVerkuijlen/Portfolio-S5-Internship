@@ -1,10 +1,12 @@
 # Portfolio Tool
 
 ***
+
 ## Table of Contents
 - [Project Overview](#project-overview)  
 - [Technical Details](#technical-details)
 - [Project Management](#project-management)
+- [Developement process](#development-process)
 - [Key Features and Functionality](#key-features-and-functionality)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Project Outcomes and Impact](#project-outcomes-and-impact)

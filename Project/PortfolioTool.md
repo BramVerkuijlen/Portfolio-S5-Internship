@@ -68,11 +68,28 @@ For development and testing of new features or updates, I utilized separate bran
 
 ## Key Features and Functionality
 
-### Loading previous data
-**NULL**
+### Loading Previous Data
 
-###  Investment form
-**NULL**
+A critical feature of our application is its ability to load previous data for user convenience and efficiency. When users return to the application, they don't have to start from scratch; instead, the system automatically checks the database for existing data associated with the user's venture. If previous data is found, it pre-populates the forms with this information.
+
+This functionality allows ventures to easily review and update their information as needed without re-entering all data, significantly reducing the time and effort involved in maintaining up-to-date records. Once the form is completed and submitted, the updated information is stored in the database, ensuring that the most recent data is always available.
+
+### Tech1 and Tech2 Selection
+In the application form, users encounter two fields labeled as Tech1 and Tech2. These labels, while perhaps initially unclear to some, are terms used within HighTechXL to denote 'Technology Tier 1' and 'Technology Tier 2,' respectively. Technology Tier 2 is essentially a subcategory of Tier 1.
+
+The Tech2 field is initially disabled. It becomes active only after a selection is made in Tech1. Upon choosing a Tech1 category, the corresponding Tech2 options are dynamically loaded and enabled. This ensures that the choices in Tech2 are relevant to the broader category selected in Tech1, preventing mismatched or irrelevant data entries. This functionality helps the user through a logical sequence of choices, improving the overall ease and accuracy of data entry.
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Tech1%2C%20Tech2%20disabled.png" alt="Tech1 Field Enabled, Tech2 Disabled">
+    <p><em>Tech1 field enabled and Tech2 field disabled, indicating the initial state before any Tech1 selection.</em></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Tech1%20Tech2%20active.png" alt="Tech1 and Tech2 Fields Active">
+    <p><em>Tech1 and Tech2 fields active, showing selectable options in both fields after Tech1 is selected.</em></p>
+  </div>
+</div>
+
 
 ### Features Implemented
 **NULL**
@@ -100,7 +117,7 @@ Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Prel
 As the project grew to include more sophisticated components like a stepper or multi selects, I needed a more robust solution that was guaranteed to work seamlessly with Angular. This led to my decision to adopt Angular Material. Angular Material not only offered a sleek and straightforward design but also provided the certainty of complete compatibility with Angular. This ensured that I could implement the more complex components needed for the project.
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="Third iteration using Material Angular" height="300">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="Third iteration using Material Angular">
   <p><em>Third iteration using <a href="https://material.angular.io/" target="_blank">Material Angular</a>.</em></p>
 </div>
 
@@ -114,13 +131,13 @@ This encouraged me to lokk for an alternative solution. I decided to rename the 
 ### Database Versioning
 Because HightechXL was using a excel file as their main way to store data tehy lacked any kind of versioning. While versioning wasn't initially a requirement, I realized its potential benefits in tracking a venture's progress and aiding in securing investors. One of the solutions I considered was the use of temporal tables. This SQL Server feature seemed promising due to its seamless integration with my database structure and compatibility with PowerBI, which would facilitate historical data management and ensure data integrity.
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" alt="Before Database Design" height="450">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" alt="Before Database Design">
 
 However, during the development of my second proof of concept, I introduced an extra "venture" table to improve the system's architecture (as described in the previous alinea on "Linking Portfolios"). This modification complicated the use of temporal tables because they are most effective when updating existing data, not when linking new data entries.
 
 To adapt, I revised the database structure to not use temporal tables. Instead, I linked multiple portfolios to a single venture and added a 'date submitted' column. This approach effectively allowed for tracking changes over time without the complexity of temporal tables, maintaining the ability to observe historical changes across different data submissions, thus mimicking the versioning effect I aimed to achieve. This change also came with the benifit that HightechXL could now also change certain portfolio information without it effecting the temporal history table.
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" alt="After Database Design" height="450">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" alt="After Database Design">
 
 ### Login
 Implementing the second proof of concept build, which was designed to collect and store data, presented several challenges. Initially, the application setup was too simplistic, using only an ID as an identifier. This method was inherently insecure as the ID could easily be guessed by potential attackers, potentially exposing sensitive data. Given the complexity and time requirements to develop a full-fledged login system, I initially opted not to host the application online. Instead, I chose to run it locally on my laptop via localhost, recognizing that this was not an ideal solution.

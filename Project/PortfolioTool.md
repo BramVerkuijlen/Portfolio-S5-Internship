@@ -146,6 +146,18 @@ During discussions with my school mentor, Thijs, we looked at several potential 
 
 After some consideration, I decided to develop a portion of the login system. I chose to manually create login credentials for each venture. By assigning secure usernames and passwords, I could ensure that only I had the authority to distribute access credentials directly to the ventures. Furthermore, I used JWT tokens to secure my API and altered my API calls to check if the user was allowed to interact with the venture.
 
+### Updating to .NET 8
+
+Initially, my API was built using .NET 6, which seemed to be version Visual Studio defaulted to when creating the project. However, while exploring authentication options, a suggestion from the C# Discord community led me to consider upgrading to .NET 8. This newer version had more features, including a new identity system. Although I ultimately decided against using this identity system, opting for a JWT solution, which ended up being compatible with .NET 6.
+
+Transitioning to .NET 8, however, was not straightforward. After updating the API's version, I encountered several significant issues. The API functionality broke, and Rider, the IDE I had switched to, was behaving unusual.
+
+To resolve these issues, I undertook the following steps:
+1. **SDK Installation**: I installed the latest .NET 8 SDK, ensuring that the development environment was fully updated.
+2. **Package Updates**: All dependent packages were updated to their latest versions compatible with .NET 8.
+
+After this easy fix, the system stabilized, and the API worked again. Although the errors did scare me a bit and it took a few hours to resolve.
+
 ***
 ## Project Outcomes and Impact
 ### Results

@@ -83,7 +83,26 @@ For development and testing of new features or updates, I utilized separate bran
 ### Component Library Limitations
 Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Preline's full system to make creating comoponents easier. Unfortionately, I encountered compatibility issues with Angular, some of the components that preline provided wouldnt work with angulars reactive forms. Because of this I switched to Flowbite, where I only used their styling without installing any plugins, allowing me to easilly style my components without the risk of the plugin not working with angular.
 
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First design using Preline" height="450">
+    <p><em>First design iteration using <a href="https://preline.co/" target="_blank">Preline</a>.</em></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite" height="450">
+    <p><em>Second iteration using <a href="https://flowbite.com/" target="_blank">Flowbite</a>.</em></p>
+  </div>
+</div>
+
+
+
 As the project grew to include more sophisticated components like a stepper or multi selects, I needed a more robust solution that was guaranteed to work seamlessly with Angular. This led to my decision to adopt Angular Material. Angular Material not only offered a sleek and straightforward design but also provided the certainty of complete compatibility with Angular. This ensured that I could implement the more complex components needed for the project.
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="Third iteration using Material Angular" height="300">
+  <p><em>Third iteration using <a href="https://material.angular.io/" target="_blank">Material Angular</a>.</em></p>
+</div>
 
 ### Linking portfolios
 After completing my initial proof of concept, I started to flesh out the functionality of what was initially called a "venture" but has since been renamed "portfolio." One of the earliest and most challenging issues I faced was linking these portfolios to specific start-ups.
@@ -95,13 +114,13 @@ This encouraged me to lokk for an alternative solution. I decided to rename the 
 ### Database Versioning
 Because HightechXL was using a excel file as their main way to store data tehy lacked any kind of versioning. While versioning wasn't initially a requirement, I realized its potential benefits in tracking a venture's progress and aiding in securing investors. One of the solutions I considered was the use of temporal tables. This SQL Server feature seemed promising due to its seamless integration with my database structure and compatibility with PowerBI, which would facilitate historical data management and ensure data integrity.
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" alt="Before Database Design" height="300">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" alt="Before Database Design" height="450">
 
 However, during the development of my second proof of concept, I introduced an extra "venture" table to improve the system's architecture (as described in the previous alinea on "Linking Portfolios"). This modification complicated the use of temporal tables because they are most effective when updating existing data, not when linking new data entries.
 
 To adapt, I revised the database structure to not use temporal tables. Instead, I linked multiple portfolios to a single venture and added a 'date submitted' column. This approach effectively allowed for tracking changes over time without the complexity of temporal tables, maintaining the ability to observe historical changes across different data submissions, thus mimicking the versioning effect I aimed to achieve. This change also came with the benifit that HightechXL could now also change certain portfolio information without it effecting the temporal history table.
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" alt="After Database Design" height="300">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" alt="After Database Design" height="450">
 
 ### Login
 Implementing the second proof of concept build, which was designed to collect and store data, presented several challenges. Initially, the application setup was too simplistic, using only an ID as an identifier. This method was inherently insecure as the ID could easily be guessed by potential attackers, potentially exposing sensitive data. Given the complexity and time requirements to develop a full-fledged login system, I initially opted not to host the application online. Instead, I chose to run it locally on my laptop via localhost, recognizing that this was not an ideal solution.

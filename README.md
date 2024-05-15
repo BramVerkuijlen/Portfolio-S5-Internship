@@ -71,8 +71,12 @@ For detailed information on specific projects during my internship, see the link
 
 
 ## Special thanks to
-- [HighTechXL](https://hightechxl.com/) for giving me the oppertunity to do my internship at their company.
+- [HighTechXL](https://hightechxl.com/) for giving me the opportunity to do my internship at their company.
+- The members of the [C# Discord](https://discord.gg/csharp) community for their help when I got stuck.
+- The [Angular Discord](https://discord.gg/ScWADZHt) community for their assistance and support during the project.
+
 - This project utilized the ChatGPT language model developed by [OpenAI](https://openai.com/).
+
 
 
 

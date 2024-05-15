@@ -103,13 +103,12 @@ To adapt, I revised the database structure to not use temporal tables. Instead, 
 
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" alt="After Database Design" height="300">
 
-
 ### Login
 Implementing the second proof of concept build, which was designed to collect and store data, presented several challenges. Initially, the application setup was too simplistic, using only an ID as an identifier. This method was inherently insecure as the ID could easily be guessed by potential attackers, potentially exposing sensitive data. Given the complexity and time requirements to develop a full-fledged login system, I initially opted not to host the application online. Instead, I chose to run it locally on my laptop via localhost, recognizing that this was not an ideal solution.
 
-During discussions with my school mentor Thijs, we looked at several potential solutions to enhance security without committing extensive resources to develop a complete login system. Among the options considered were implementing Google's OAuth for authentication, creating a simplified custom login system, or enhancing server security to protect the application.
+During discussions with my school mentor, Thijs, we looked at several potential solutions to enhance security without committing extensive resources to develop a complete login system. Among the options considered were implementing Google's OAuth for authentication, creating a simplified custom login system, or enhancing server security to protect the application.
 
-After some consideration, I decided to develop a portion of the login system. I chose to manually create login credentials for each venture. By assigning secure usernames and passwords, I could ensure that only I had the authority to distribute access credentials directly to the ventures. This approach significantly minimized the risk of unauthorized access by third parties.
+After some consideration, I decided to develop a portion of the login system. I chose to manually create login credentials for each venture. By assigning secure usernames and passwords, I could ensure that only I had the authority to distribute access credentials directly to the ventures. Furthermore, I used JWT tokens to secure my API and altered my API calls to check if the user was allowed to interact with the venture.
 
 ***
 ## Project Outcomes and Impact

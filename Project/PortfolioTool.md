@@ -17,10 +17,20 @@
 ***
 ## Project Overview
 
-### Purpose
-The primary purpose of this project is to develop the "Portfolio Tool" during my internship at HighTechXL. As a software engineering student, my goal is to automate and standardize the collection of quarterly updates from startups, which has traditionally been handled manually through emails and phone calls. This manual process often resulted in inconsistent and sometimes incomplete data, complicating the task of maintaining an up-to-date and clear view of each startup's progress within the HighTechXL ecosystem. Such inconsistencies also hindered HighTechXL's ability to provide necessary data to potential investors.
 
-The Portfolio Tool is designed to replace these outdated manual communications with an automated, standardized system that ensures data consistency and quality. Additionally, the tool addresses the crucial need for effective information storage, enabling HighTechXL to maintain a robust database of venture updates that can be easily accessed and managed. This enhancement will facilitate better support and resources allocation within the HighTechXL ecosystem.
+### Introduction
+The Portfolio Tool is designed to streamline the process of data collection from new and existing ventures. As a software engineering intern, my project aimed to automate and standardize the collection of quarterly updates from startups, which had traditionally been handled manually through emails and phone calls. This manual process often resulted in inconsistent and sometimes incomplete data, complicating the task of maintaining an up-to-date and clear view of each startup's progress within the HighTechXL ecosystem. 
+
+By replacing these outdated manual methods with an automated, standardized system, the Portfolio Tool ensures data consistency and quality. Additionally, this initiative significantly enhances information storage capabilities, allowing for robust data management and easier access—key factors in providing better support and resource allocation within HighTechXL.
+
+### Purpose
+The primary purpose of this project was to develop the Portfolio Tool to replace inefficient and inconsistent data collection practices. This allows for a more streamlined, error-free process, facilitating the maintenance of a clear, comprehensive database of venture updates.
+
+### Technical Implementation
+
+Central to the Portfolio Tool is an online form designed specifically for ventures to easily provide HighTechXL with data about their businesses. Once this data is submitted, it is automatically stored in a well-structured database.
+
+After the data is securely stored, the Portfolio team uses PowerBI to access and analyze the venture data. This helps them to create detailed, visually appealing portfolios that can be presented to potential investors.
 
 ### Role
 As the main developer of the Portfolio Tool, I was responsible for all aspects of its development, from design and architecture to database creation and integration. My tasks included:

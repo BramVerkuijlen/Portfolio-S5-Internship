@@ -77,6 +77,25 @@ For development and testing of new features or updates, I utilized separate bran
 ***
 ## Developement process
 
+### Pre-Coding
+**NULL**
+
+### Getting familiar wirh Angular
+**NULL**
+
+### First proof of concept build
+**NULL**
+
+### Creating a Back-end
+**NULL**
+
+### Login functionality
+**NULL**
+
+### Second proof of concept build
+**NULL**
+
+### Advanced investments
 **NULL**
 
 ## Key Features and Functionality

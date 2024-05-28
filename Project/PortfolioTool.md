@@ -111,6 +111,10 @@ For development and testing of new features or updates, I utilized separate bran
 **NULL**
 
 ### Login functionality
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageLoginID.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageWithActualLogin.png">
+
 **NULL**
 
 ### Second proof of concept build

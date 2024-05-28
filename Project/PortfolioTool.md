@@ -48,7 +48,7 @@ This role provided me with significant hands-on experience in managing a full-cy
 
 ### Architecture Diagrams
 **NULL**
-
+ 
 ### Technology Stack
 The development of the Portfolio Tool involved using a blend of technologies that were already familiar within HighTechXL, alongside some new adaptations to meet the specific needs of the project.
 
@@ -81,6 +81,8 @@ For development and testing of new features or updates, I utilized separate bran
 **NULL**
 
 ### Getting familiar wirh Angular
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png">
 **NULL**
 
 ### First proof of concept build

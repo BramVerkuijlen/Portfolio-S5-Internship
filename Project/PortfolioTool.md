@@ -100,6 +100,11 @@ For development and testing of new features or updates, I utilized separate bran
 **NULL**
 
 ### First proof of concept build
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Welcome%20page.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Investments%20page.png">
+
 **NULL**
 
 ### Creating a Back-end

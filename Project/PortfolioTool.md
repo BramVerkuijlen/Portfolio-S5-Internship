@@ -98,6 +98,7 @@ For development and testing of new features or updates, I utilized separate bran
 ### Advanced investments
 **NULL**
 
+***
 ## Key Features and Functionality
 
 ### Loading Previous Data
@@ -122,8 +123,10 @@ The Tech2 field is initially disabled. It becomes active only after a selection 
   </div>
 </div>
 
+### Investements
+**NULL**
 
-### Features Implemented
+### Stepper?
 **NULL**
 
 ***
@@ -202,6 +205,9 @@ After this easy fix, the system stabilized, and the API worked again. Although t
 ## Lessons Learned
 
 ### Technical Skills
+**NULL**
+
+### Social skills
 **NULL**
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

@@ -1,5 +1,7 @@
 # Portfolio Tool
 
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/CompanyDetailsFilledIn.png">
+
 ***
 
 ## Table of Contents

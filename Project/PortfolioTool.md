@@ -78,11 +78,24 @@ For development and testing of new features or updates, I utilized separate bran
 ## Developement process
 
 ### Pre-Coding
+
+<img src="">
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png">
 **NULL**
 
 ### Getting familiar wirh Angular
 
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png">
+**NULL**
+
+### Finding the right style
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.2.png">
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png">
 **NULL**
 
 ### First proof of concept build

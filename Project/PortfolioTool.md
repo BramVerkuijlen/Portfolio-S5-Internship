@@ -77,34 +77,31 @@ For development and testing of new features or updates, I utilized separate bran
 ***
 ## Development process
 
-### Getting familiar with Angular
+### Introduction to Angular and Project Setup
+The first week, when I was supposed to start at the company, my supervisor was on vacation and unable to introduce me to the company and the project. Therefore, we decided that I would work from home during this week to get familiar with Angular and set up my Git and Jira board for the project. 
 
-Because 
-
+I used this first week to create a small CRUD application in Angular that used JSON server as a mock database. Additionally, I took the time to become familiar with Tailwind, as HighTechXL also used Tailwind. Having previously used .NET and Vue for front-end development, adapting to Angular was relatively simple due to its many similarities with Vue. However, I initially struggled with Angular's dependency injection and observables.
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png">
-**NULL**
+*First week CRUD application using Angular and tailwind*
 
-### Pre-Coding
-
-Before I started coding, I set up a GitHub organization to manage the project. Within this organization, I created separate repositories for the back-end and front-end components.
+### GitHub Organization Setup
+I set up a GitHub organization to manage the project. Within this organization, I created separate repositories for the back-end and front-end components.
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png">
+*Screenshot of GitHub organization*
 
-To organize and track the project's progress, I established a Task Board in Jira. This involved creating an initial set of tasks that outlined the key features and milestones of the project. Additionally, I drafted example tasks that would serve as templates for future entries, ensuring consistency and clarity in task creation. This setup not only streamlined the workflow but also provided a clear roadmap for development, helping to prioritize tasks and manage time effectively.
-
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png">
-
-Sure, here’s a more concise version:
-
+### Jira Task Board Establishment
 Initially, I used an Agile Scrum methodology with user stories and sub-tasks, as I had successfully done in a previous project [(Proof of Learning Outcomes)](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md). HighTechXL had no specific working method requirements, allowing me flexibility.
 
 To track progress, I established a Task Board in Jira, creating an initial set of tasks and example templates for consistency.
 
 However, as the project evolved, rapidly changing requirements and solo work made structured Scrum impractical. I shifted to a more flexible approach, enabling swift responses to changes and quick decision-making, which was crucial for the project's success.
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png">
+*Screenshot of Jira task board*
+
 
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png">
-
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png">
-**NULL**
+
 
 ### Finding the right style
 

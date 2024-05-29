@@ -75,20 +75,35 @@ In managing the version control for my project, I utilized Git with a straightfo
 For development and testing of new features or updates, I utilized separate branches. This approach allowed me to freely experiment and refine functionalities without impacting the stability of the master branch. Each feature was developed in its own branch and only merged into master once it had been fully tested and confirmed stable. This branching strategy effectively maintained the integrity of the main project while allowing for continuous development and improvement.
 
 ***
-## Developement process
+## Development process
+
+### Getting familiar with Angular
+
+Because 
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png">
+**NULL**
 
 ### Pre-Coding
 
+Before I started coding, I set up a GitHub organization to manage the project. Within this organization, I created separate repositories for the back-end and front-end components.
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png">
+
+To organize and track the project's progress, I established a Task Board in Jira. This involved creating an initial set of tasks that outlined the key features and milestones of the project. Additionally, I drafted example tasks that would serve as templates for future entries, ensuring consistency and clarity in task creation. This setup not only streamlined the workflow but also provided a clear roadmap for development, helping to prioritize tasks and manage time effectively.
+
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png">
 
+Sure, here’s a more concise version:
+
+Initially, I used an Agile Scrum methodology with user stories and sub-tasks, as I had successfully done in a previous project [(Proof of Learning Outcomes)](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md). HighTechXL had no specific working method requirements, allowing me flexibility.
+
+To track progress, I established a Task Board in Jira, creating an initial set of tasks and example templates for consistency.
+
+However, as the project evolved, rapidly changing requirements and solo work made structured Scrum impractical. I shifted to a more flexible approach, enabling swift responses to changes and quick decision-making, which was crucial for the project's success.
+
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png">
+
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png">
-**NULL**
-
-### Getting familiar wirh Angular
-
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png">
 **NULL**
 
 ### Finding the right style

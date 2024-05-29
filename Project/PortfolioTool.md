@@ -98,10 +98,11 @@ However, as the project evolved, rapidly changing requirements and solo work mad
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png">
 *Screenshot of Jira task board*
 
+### Information gathering and wireframe
+
 
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png">
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png">
-
 
 ### Finding the right style
 

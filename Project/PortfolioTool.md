@@ -100,9 +100,23 @@ However, as the project evolved, rapidly changing requirements and solo work mad
 
 ### Information gathering and wireframe
 
+The first week at the company, I focused on gathering information on what needs to be included in the portfolio tool. I achieved this by talking with the portfolio manager, examining the existing XL file, and reviewing documents from previous attempts at a portfolio tool.
 
+Using the information I gathered, I started creating wireframes for the front-end of my application.
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png">
+*Wireframe 1: Initial design for the portfolio tool*
+
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png">
+*Wireframe 2: Detailed layout for user interface*
+
+### Initial Database Setup
+
+While developling the front-end of my application, I also began developing my database, as this was a very important part of the project and I wanted to get a better understanding on how the databases would work with Power BI. During my research, I came across temporal tables, which allow for versioning within the database. I decided to implement temporal tables early on to test their functionality with Power BI.
+
+To test the database setup, I collaborated with another intern, Andrea, who was working on portfolio management and Power BI. I asked Andrea to create a simple report using my database and compare it with one generated from the Excel master file. The results showed that, for Andrea, the database was as easy to use as the Excel master file.
+
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/tables%20and%20relatuions%20in%20DB.png">
+*This is one of the first database diagrams I made.*
 
 ### Finding the right style
 

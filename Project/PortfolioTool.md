@@ -150,6 +150,12 @@ To test the database setup, I collaborated with another intern, Andrea, who was 
 ### Advanced investments
 **NULL**
 
+### User test
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Windows%20feedback%20form.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/PortfolioUsertestMailTemplate.png">
+
+**NULL**
+
 ***
 ## Key Features and Functionality
 

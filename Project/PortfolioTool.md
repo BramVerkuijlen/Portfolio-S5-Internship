@@ -118,17 +118,19 @@ To test the database setup, I collaborated with another intern, Andrea, who was 
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/tables%20and%20relatuions%20in%20DB.png">
 *This is one of the first database diagrams I made.*
 
-### Finding the right style
+### Finding the Right Style
 
-preline was my first library choice, because of the amount of components
-one of the components didnt work, code also became to hard to read as I didnt use enough components.
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png">
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.2.png">
+Preline was my first library choice because I liked how the components looked and because of the large number of custom components it offered. Preline worked well in the beginning of the project as it was easy to use and my application was still small and relatively simple. However, as I needed to implement more complicated components like a multi-select, I encountered difficulties with Preline. Specifically, some bugs made it impossible to use Preline's multi-select with Angular's reactive form system that I used to get data out of input components. Additionally, Preline used a LOT of Tailwind code, which was often hard to read, especially when everything was in the main form component. My code became unreadable as I used Preline's components directly in my form instead of creating my own components first. This led me to clean up my code and switch away from Preline.
 
-second itteration using flowbite. used it without installing flowbite. just used the html tailwind from the site. some components like a number input or multiple select (again), didnt work/ looked off because of standard html styling. as  i dindt install flowbite. had to install flowbite to use the stepper. didnt like the look of it so looked for another solution.
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png">
+![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png)
+![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.2.png)
 
-found angular material. Nice styling, easy to use, lot of functionality. worked with angular and had reactive forms intergration. so used that. 
+In the second iteration, I used Flowbite without installing it. I only used the HTML Tailwind from the site. Some components, like number input or multi-select, didn't work or looked off because of standard HTML styling. I had to install Flowbite to use the stepper, but I didn't like the look of it, so I looked for another solution.
+
+![Second iteration using Flowbite](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png)
+
+Finally, I found Angular Material. It had nice styling, was easy to use, offered a lot of functionality, worked well with Angular, and had reactive forms integration, so I decided to use that.
+
 **NULL**
 
 ### First proof of concept build

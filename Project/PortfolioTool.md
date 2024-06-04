@@ -120,10 +120,15 @@ To test the database setup, I collaborated with another intern, Andrea, who was 
 
 ### Finding the right style
 
+preline was my first library choice, because of the amount of components
+one of the components didnt work, code also became to hard to read as I didnt use enough components.
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png">
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.2.png">
 
+second itteration using flowbite. used it without installing flowbite. just used the html tailwind from the site. some components like a number input or multiple select (again), didnt work/ looked off because of standard html styling. as  i dindt install flowbite. had to install flowbite to use the stepper. didnt like the look of it so looked for another solution.
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png">
+
+found angular material. Nice styling, easy to use, lot of functionality. worked with angular and had reactive forms intergration. so used that. 
 **NULL**
 
 ### First proof of concept build

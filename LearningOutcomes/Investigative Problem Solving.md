@@ -3,7 +3,7 @@
 ***
 
 
-Login 
-Pre filled data
-investment fund autofill
-versioning in the database
+- Login 
+- Pre filled data
+- investment fund autofill
+- versioning in the database

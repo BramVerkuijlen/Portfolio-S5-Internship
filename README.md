@@ -47,7 +47,7 @@ This tool aims to replace outdated manual communications with an automated, stan
 ***
 ## Projects
 
-For detailed information on specific projects during my internship, see the links below:
+For detailed information on my project during my internship, see the link below:
 
 - [Portfolio Tool Project](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md) - A deep dive into the development and outcomes of the Portfolio Tool I developed for HighTechXL.
 

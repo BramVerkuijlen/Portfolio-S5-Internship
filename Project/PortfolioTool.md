@@ -268,9 +268,13 @@ After this easy fix, the system stabilized, and the API worked again. Although t
 ## Lessons Learned
 
 ### Technical Skills
+
+angular
+tailwind
+efcore
 **NULL**
 
-### Social skills
+### Soft Skills
 **NULL**
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

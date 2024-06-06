@@ -176,7 +176,7 @@ to make sure all the fields ended up in the right step, I took a couple of stick
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/20240402_161600.jpg" style="max-width: 60%; transform: rotate(-90deg);">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StickyDevideOverSteps.jpg" style="max-width: 60%;">
   </div>
 </div>
 

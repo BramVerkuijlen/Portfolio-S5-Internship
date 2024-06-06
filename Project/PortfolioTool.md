@@ -129,7 +129,7 @@ While developling the front-end of my application, I also began developing my da
 
 To test the database setup, I collaborated with another intern, Andrea, who was working on portfolio management and Power BI. I asked Andrea to create a simple report using my database and compare it with one generated from the Excel master file. The results showed that, for Andrea, the database was as easy to use as the Excel master file.
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/tables%20and%20relatuions%20in%20DB.png">
+<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/tables%20and%20relatuions%20in%20DB.png" >
 *This is one of the first database diagrams I made.*
 
 ### Finding the Right Style
@@ -138,12 +138,12 @@ Preline was my first library choice because I liked how the components looked an
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First iteration using Preline 1">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First iteration using Preline 1" style="max-width: 60%;">
     <p><em>First iteration using Preline - Screenshot 1</em></p>
   </div>
   
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png" alt="First iteration using Preline - Stepper Code">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png" alt="First iteration using Preline - Stepper Code" style="max-width: 60%;">
     <p><em>First iteration using Preline - Stepper Code</em></p>
   </div>
 </div>
@@ -152,21 +152,35 @@ In the second iteration, I wanted to take a step back because I was getting a bi
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite 1">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite 1" style="max-width: 60%;">
     <p><em>Second iteration using Flowbite - Screenshot 1</em></p>
   </div>
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png" alt="Second iteration using Flowbite - Code">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png" alt="Second iteration using Flowbite - Code" style="max-width: 60%;">
     <p><em>Second iteration using Flowbite - Code</em></p>
   </div>
 </div>
 
 After getting to a point where a stepper needed to be implemented again, the approach of only using the Tailwind and HTML from Preline wouldn't suffice. I needed to install Preline to ensure the stepper would be implemented correctly. This prompted me to explore other options, including Google's design document on Material Design, which led me to Angular Material. I found the implementation and style of Angular Material more appealing than Preline, prompting me to make my final style switch to Angular Material. It was advantageous that I had already separated my components and used variables to set certain things like the labels or placeholders, making it very easy to implement Material.
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
  <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 30%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 60%;"">
+  </div>
+  <div style="text-align: center;">
+    <img src="" style="max-width: 60%;"">
   </div>
 </div>
+
+to make sure all the fields ended up in the right step, I took a couple of sticky notes and wrote all inputs/necessary fields onto them. This way, I could easily group them and move them around. After grouping all the sticky notes, some of the other interns helped me come up with a couple of names for each step. These steps became: company details, mission team, and performance. Later, the extra step investments was added to these.
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/20240402_161600.jpg" style="max-width: 60%; transform: rotate(-90deg);">
+  </div>
+</div>
+
+
 **NULL**
 
 ### First proof of concept build

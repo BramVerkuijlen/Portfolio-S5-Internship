@@ -181,20 +181,35 @@ to make sure all the fields ended up in the right step, I took a couple of stick
 </div>
 
 ### First proof of concept build
+Around halfway through my internship, I finished the first proof of concept build for the portfolio tool. This build was meant to test the portfolio tool with Hightechxls Ventures and did not have database/API integration yet (the API also did not exist at this point). This build worked with pre-set lists and did not save any data to a database. One of the major features that I also wanted to test with the build was that after the portfolio had been filled in once, the data would be remembered for all following times (again, it was not stored in a database or anything, I did this locally using variables).
+
+For this build, I also added a welcome screen and an end screen. The welcome screen would welcome the user, and the end screen would prompt the user to go through the form again. The second time the user would end up on the end screen, they would be thanked for filling in the form marking the end of the user test.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Welcome%20page.png" alt="POC Welcome Page" style="max-width: 30%;">
   </div>
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 30%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Filled%20in%20I1.png" style="max-width: 30%;">
   </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Tahnk%20you%20end%20page%20I1.png" alt="POC Investments Page" style="max-width: 30%;">
+  </div>
+</div>
+
+Another one of the features was the investmentForm component, which essentially acted as its own CRUD (Create, Read, Update, Delete) application. This component was at that point integrated into the performance step of the portfolio tool. Here, ventures had the ability to manage their investments by adding, editing, or removing them.
+
+When users clicked on the "Add Investment" button, a small form would appear, where the ventures were able to input their investment's information and submit it to a list.
+
+Following submission, the newly added investment would instantly populate a dynamically updating list within the performance step. This list served as a convenient hub, providing ventures with immediate access to all their investments. Each investment in the list would display key information about the investment and could be pressed on to show more information.
+
+The listed ventures would also display an edit and delete button, allowing ventures to make necessary updates to investment details or remove investments.
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Investments%20page.png" alt="POC Investments Page" style="max-width: 30%;">
   </div>
 </div>
-
-**NULL**
 
 ### Creating a Back-end
 **NULL**

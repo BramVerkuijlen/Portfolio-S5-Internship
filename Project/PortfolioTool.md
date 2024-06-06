@@ -126,10 +126,10 @@ Preline was my first library choice because I liked how the components looked an
 ![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.2.png)
 ![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png)
 
-
-In the second iteration, I used Flowbite without installing it. I only used the HTML Tailwind from the site. Some components, like number input or multi-select, didn't work or looked off because of standard HTML styling. I had to install Flowbite to use the stepper, but I didn't like the look of it, so I looked for another solution.
+In the second iteration, I wanted to take a step back because I was getting a bit overwhelmed by all the Tailwind code. I decided to set up my form again using Preline, based on a recommendation I received in the Angular Discord community. However, I chose not to implement Preline completely. Instead, I only copied the Tailwind HTML from the Preline website and did not install Preline into my program. While taking this step back, I also decided to temporarily not use a stepper and to put all the fields underneath each other. Additionally, I organized my input fields by placing them in their own separate folder within the components folder
 
 ![Second iteration using Flowbite](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png)
+![Second iteration using Flowbite](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png)
 
 Finally, I found Angular Material. It had nice styling, was easy to use, offered a lot of functionality, worked well with Angular, and had reactive forms integration, so I decided to use that.
 

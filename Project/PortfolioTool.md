@@ -211,6 +211,8 @@ The listed ventures would also display an edit and delete button, allowing ventu
   </div>
 </div>
 
+After discussions with the portfolio manager, it became clear that gathering the data filled in by the ventures during the user test was really helpful to test the portfolio tool. This led me to implement and make the API and database to collect all the information entered by the ventures.
+
 ### Creating a Back-end
 **NULL**
 

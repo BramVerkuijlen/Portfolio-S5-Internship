@@ -180,9 +180,6 @@ to make sure all the fields ended up in the right step, I took a couple of stick
   </div>
 </div>
 
-
-**NULL**
-
 ### First proof of concept build
 
 <div style="display: flex; justify-content: space-between; align-items: center;">

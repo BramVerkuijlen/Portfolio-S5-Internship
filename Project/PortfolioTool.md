@@ -120,10 +120,12 @@ To test the database setup, I collaborated with another intern, Andrea, who was 
 
 ### Finding the Right Style
 
-Preline was my first library choice because I liked how the components looked and because of the large number of custom components it offered. Preline worked well in the beginning of the project as it was easy to use and my application was still small and relatively simple. However, as I needed to implement more complicated components like a multi-select, I encountered difficulties with Preline. Specifically, some bugs made it impossible to use Preline's multi-select with Angular's reactive form system that I used to get data out of input components. Additionally, Preline used a LOT of Tailwind code, which was often hard to read, especially when everything was in the main form component. My code became unreadable as I used Preline's components directly in my form instead of creating my own components first. This led me to clean up my code and switch away from Preline.
+Preline was my first library choice because I liked how the components looked and because of the large number of custom components it offered. Preline worked well in the beginning of the project as it was easy to use and my application was still small and relatively simple. However, as I needed to implement more complicated components like a multi-select, I encountered difficulties with Preline. Specifically, some bugs made it impossible to use Preline's multi-select with Angular's reactive form system that I used to get data out of input components. Additionally, Preline used a LOT of Tailwind code, which was often hard to read.
 
 ![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png)
 ![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.2.png)
+![First iteration using Preline](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png)
+
 
 In the second iteration, I used Flowbite without installing it. I only used the HTML Tailwind from the site. Some components, like number input or multi-select, didn't work or looked off because of standard HTML styling. I had to install Flowbite to use the stepper, but I didn't like the look of it, so I looked for another solution.
 

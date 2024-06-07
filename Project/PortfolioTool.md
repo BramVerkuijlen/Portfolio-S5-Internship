@@ -176,7 +176,9 @@ to make sure all the fields ended up in the right step, I took a couple of stick
   </div>
 
 ### First proof of concept build
-Around halfway through my internship, I finished the first proof of concept build for the portfolio tool. This build was meant to test the portfolio tool with Hightechxls Ventures and did not have database/API integration yet (the API also did not exist at this point). This build worked with pre-set lists and did not save any data to a database. One of the major features that I also wanted to test with the build was that after the portfolio had been filled in once, the data would be remembered for all following times (again, it was not stored in a database or anything, I did this locally using variables).
+Around halfway through my internship, I finished the first proof of concept build for the portfolio tool. This build was meant to test the portfolio tool with Hightechxls Ventures and did not have database/API integration yet (the API also did not exist at this point). This build worked with pre-set lists and did not save any data to a database. To host the build, my supervisor and I set up a pipeline on a separate branch using Githubs Actions to automatically build and push the proof of concept to an Azure server. This setup allowed me to push changes to the build, automatically updating the web server version, without interfering with other features I was working on.
+
+One of the major features that I also wanted to test with the build was that after the portfolio had been filled in once, the data would be remembered for all following times (again, it was not stored in a database or anything, I did this locally using variables).
 
 For this build, I also added a welcome screen and an end screen. The welcome screen would welcome the user, and the end screen would prompt the user to go through the form again. The second time the user would end up on the end screen, they would be thanked for filling in the form marking the end of the user test.
 

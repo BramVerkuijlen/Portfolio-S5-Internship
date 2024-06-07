@@ -259,6 +259,8 @@ To get the other API calls working in my front-end again, I implemented an inter
 And finally I made an error service that would redirect any 401 (unauthorized) to the login page.
 
 ### Second proof of concept build
+
+With the new Login system and the front- and back-end fully working  
 **NULL**
 
 ### Advanced investments

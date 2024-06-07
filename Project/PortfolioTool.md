@@ -212,7 +212,7 @@ For the back end, I used EF Core due to it being already in use within HighTechX
 
 After remaking my database using the code-first approach, I used .NET to automatically generate my initial API calls using their scaffolding system. The first API routes I created were the ones used to gather the lists that would be used inside my select components, including series, tech1, tech2, and sdgs. Which I integrated with my frontend by fetching the lists from the backend (and consequently, the database) instead of having them pre-coded.
 
-After connecting all lists, I encountered a problem with how my application was set up. Due to the structure of my venture table at the time, I couldn't differentiate between a venture that hadn't already filled in a portfolio previously and one that had. Because I did not want to make all fields nullable in the database to determine if a user had filled in the form previously, as my supervisor proposed as a possible solution, I looked for a better solution.
+After connecting all lists, I encountered a problem with how my application was set up. Due to the structure of my venture table at the time, I couldn't differentiate between a venture that hadn't already filled in a portfolio previously and one that had. Because I did not want to make all fields nullable in the database to determine if a user had filled in the form previously, as my supervisor, Jordy,  proposed as a possible solution, I looked for a better solution.
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" style="max-width: 30%;">
@@ -235,11 +235,28 @@ The only thing left to figure out was how I would know which venture was filling
   <p><em>New welcome page with ID input</em></p>
 </div>
 
-### Login functionality
+### Login Functionality
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageWithActualLogin.png">
+After getting the application working again, I noticed a potential security risk with how I was calling my API. Because I was using an ID that could potentially be guessed, it would be possible to send requests to the API and gain access to a venture's data. 
 
-**NULL**
+While discussing this with the portfolio manager, we figured out some quick solutions. One suggestion was to refrain from hosting the project and instead keep it solely on my laptop locally. Ventures could then use my laptop to try out the portfolio tool, and we could implement HighTechXL's existing login system afterwards.
+
+Even though this was a potential solution it really wasnt a good solution.
+
+During discussions with my school mentor, Thijs, we explored several potential solutions to increase security without having to develop a complete login system. Some of the options we considered were implementing Google's OAuth for authentication, creating a simplified custom login system, or securing the server to protect the application.
+
+I decided to develop a portion of the login system myself, focusing solely on the login functionality. This approach ensured that the API would be protected, and it allowed me to manually create login credentials for each venture. With this setup, only I had the authority to distribute access credentials directly, determining who could fill in the form and ensuring data analysis integrity for the user test.
+
+After successfully configuring the back-end, I updated the welcome page on the front-end to integrate the new login system. Additionally, I created an authentication service responsible for storing the JWT token in the local storage.
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageLoginID.png" style="max-width: 30%;">
+  <p><em>New login screen</em></p>
+</div>
+
+To get the other API calls working in my front-end again, I implemented an interceptor that intercepts the calls and adds the token form the local storage as a header.
+
+And finally I made an error service that would redirect any 401 (unauthorized) to the login page.
 
 ### Second proof of concept build
 **NULL**
@@ -286,56 +303,6 @@ The Tech2 field is initially disabled. It becomes active only after a selection 
 
 ***
 ## Challenges and Solutions
-
-//// REMOVE ?
-### Component Library Limitations
-Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Preline's full system to make creating comoponents easier. Unfortionately, I encountered compatibility issues with Angular, some of the components that preline provided wouldnt work with angulars reactive forms. Because of this I switched to Flowbite, where I only used their styling without installing any plugins, allowing me to easilly style my components without the risk of the plugin not working with angular.
-
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First design using Preline" height="450">
-    <p><em>First design iteration using <a href="https://preline.co/" target="_blank">Preline</a>.</em></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite" height="450">
-    <p><em>Second iteration using <a href="https://flowbite.com/" target="_blank">Flowbite</a>.</em></p>
-  </div>
-</div>
-
-As the project grew to include more sophisticated components like a stepper or multi selects, I needed a more robust solution that was guaranteed to work seamlessly with Angular. This led to my decision to adopt Angular Material. Angular Material not only offered a sleek and straightforward design but also provided the certainty of complete compatibility with Angular. This ensured that I could implement the more complex components needed for the project.
-
-<div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="Third iteration using Material Angular">
-  <p><em>Third iteration using <a href="https://material.angular.io/" target="_blank">Material Angular</a>.</em></p>
-</div>
-
-//// REMOVE ?
-### Linking portfolios
-After completing my initial proof of concept, I started to flesh out the functionality of what was initially called a "venture" but has since been renamed "portfolio." One of the earliest and most challenging issues I faced was linking these portfolios to specific start-ups.
-
-In response, my supervisor, Jordy, and I initially considered integrating the portfolio tool with HighTechXL's existing "venture journey" system. This system already had a working login system created by Jordy, which seemed like a practical solution. However, integrating these systems felt problematic as we aimed to keep the two applications as separate as possible to avoid any operational conflicts.
-
-This encouraged me to lokk for an alternative solution. I decided to rename the original venture table to "portfolio" and created a new venture table equipped with an ID. This new structure mirrored what HighTechXL employed in their venture journey, effectively resembling a user table found in standard applications. This change finally provided a coherent way to link a portfolio to specific venture, resolving the initial functional issues and enhancing the overall system architecture.
-
-//// REMOVE ?
-### Database Versioning
-Because HightechXL was using a excel file as their main way to store data tehy lacked any kind of versioning. While versioning wasn't initially a requirement, I realized its potential benefits in tracking a venture's progress and aiding in securing investors. One of the solutions I considered was the use of temporal tables. This SQL Server feature seemed promising due to its seamless integration with my database structure and compatibility with PowerBI, which would facilitate historical data management and ensure data integrity.
-
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" alt="Before Database Design">
-
-However, during the development of my second proof of concept, I introduced an extra "venture" table to improve the system's architecture (as described in the previous alinea on "Linking Portfolios"). This modification complicated the use of temporal tables because they are most effective when updating existing data, not when linking new data entries.
-
-To adapt, I revised the database structure to not use temporal tables. Instead, I linked multiple portfolios to a single venture and added a 'date submitted' column. This approach effectively allowed for tracking changes over time without the complexity of temporal tables, maintaining the ability to observe historical changes across different data submissions, thus mimicking the versioning effect I aimed to achieve. This change also came with the benifit that HightechXL could now also change certain portfolio information without it effecting the temporal history table.
-
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" alt="After Database Design">
-
-### Login
-Implementing the second proof of concept build, which was designed to collect and store data, presented several challenges. Initially, the application setup was too simplistic, using only an ID as an identifier. This method was inherently insecure as the ID could easily be guessed by potential attackers, potentially exposing sensitive data. Given the complexity and time requirements to develop a full-fledged login system, I initially opted not to host the application online. Instead, I chose to run it locally on my laptop via localhost, recognizing that this was not an ideal solution.
-
-During discussions with my school mentor, Thijs, we looked at several potential solutions to enhance security without committing extensive resources to develop a complete login system. Among the options considered were implementing Google's OAuth for authentication, creating a simplified custom login system, or enhancing server security to protect the application.
-
-After some consideration, I decided to develop a portion of the login system. I chose to manually create login credentials for each venture. By assigning secure usernames and passwords, I could ensure that only I had the authority to distribute access credentials directly to the ventures. Furthermore, I used JWT tokens to secure my API and altered my API calls to check if the user was allowed to interact with the venture.
 
 ### Updating to .NET 8
 

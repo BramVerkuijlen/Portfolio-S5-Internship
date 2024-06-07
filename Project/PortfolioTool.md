@@ -269,6 +269,10 @@ To ensure the correct database structure was in place, I used EF Core to generat
 And after creating some login credentials in the database the portfolio tool, with back-end and database, was up and running again.
 
 ### Advanced investments
+
+The main feedback I received during my halfway meeting at school was that it would be beneficial to expand the portfolio form by adding more advanced functionality that wouldn't typically work in standard forms. For example, making the form reactive depending on the specific venture that needs to fill it in.
+
+
 **NULL**
 
 ### User test

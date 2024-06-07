@@ -262,8 +262,11 @@ And finally I made an error service that would redirect any 401 (unauthorized) t
 
 ### Second proof of concept build
 
-With the new Login system and the front- and back-end fully working  
-**NULL**
+With the new login system and both the front-end and back-end fully functional, Jordy and I used the same pipeline we had used for the first proof of concept build to host the second proof of concept build. Additionally, we set up a similar pipeline and created a database on the Azure server with extra login credentials specifically for the portfolio team to test the portfolio tool with Power BI.
+
+To ensure the correct database structure was in place, I used EF Core to generate an initial SQL query that I could run on the server. This allowed me to set up the correct database structure. Furthermore, I used queries that I had created while developing the back-end to quickly and easily populate the database with all the predefined lists.
+
+And after creating some login credentials in the database the portfolio tool, with back-end and database, was up and running again.
 
 ### Advanced investments
 **NULL**

@@ -81,6 +81,7 @@ For development and testing of new features or updates, I utilized separate bran
 The first week, when I was supposed to start at the company, my supervisor was on vacation and unable to introduce me to the company and the project. Therefore, we decided that I would work from home during this week to get familiar with Angular and set up my Git and Jira board for the project. 
 
 I used this first week to create a small CRUD application in Angular that used JSON server as a mock database. Additionally, I took the time to become familiar with Tailwind, as HighTechXL also used Tailwind. Having previously used .NET and Vue for front-end development, adapting to Angular was relatively simple due to its many similarities with Vue. However, I initially struggled with Angular's dependency injection and observables.
+
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png" alt="First week CRUD application using Angular and Tailwind" style="max-width: 60%;">
   <p><em>First week CRUD application using Angular and Tailwind</em></p>
@@ -88,6 +89,7 @@ I used this first week to create a small CRUD application in Angular that used J
 
 ### GitHub Organization Setup
 I chose to set up a GitHub organization because it allows for easy management of repositories. In this organization I also set up my front-and back end repositories.
+
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png" alt="Screenshot of GitHub organization" style="max-width: 60%;">
   <p><em>Screenshot of GitHub organization</em></p>
@@ -137,7 +139,7 @@ For my project, there weren't any strict styling requirements, but because I did
 
 Preline was my first library choice because I liked how the components looked and because of the large number of custom components it offered. Preline worked well in the beginning of the project as it was easy to use and my application was still small and relatively simple. However, as I needed to implement more complicated components like a multi-select, I encountered difficulties with Preline. Specifically, some bugs made it impossible to use Preline's multi-select with Angular's reactive form system that I used to get data out of input components. Additionally, Preline used a LOT of Tailwind code, which was often hard to read.
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First iteration using Preline 1" style="max-width: 60%;">
     <p><em>First iteration using Preline - Screenshot 1</em></p>
@@ -147,56 +149,47 @@ Preline was my first library choice because I liked how the components looked an
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png" alt="First iteration using Preline - Stepper Code" style="max-width: 60%;">
     <p><em>First iteration using Preline - Stepper Code</em></p>
   </div>
-</div>
 
 In the second iteration, I wanted to take a step back because I was getting a bit overwhelmed by all the Tailwind code. I decided to set up my form again using Preline, based on a recommendation I received in the Angular Discord community. However, I chose not to implement Preline completely. Instead, I only copied the Tailwind HTML from the Preline website and did not install Preline into my program. While taking this step back, I also decided to temporarily not use a stepper and to put all the fields underneath each other. Additionally, I organized my input fields by placing them in their own separate folder within the components folder
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite 1" style="max-width: 60%;">
     <p><em>Second iteration using Flowbite - Screenshot 1</em></p>
   </div>
-  <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png" alt="Second iteration using Flowbite - Code" style="max-width: 60%;">
     <p><em>Second iteration using Flowbite - Code</em></p>
   </div>
-</div>
 
 After getting to a point where a stepper needed to be implemented again, the approach of only using the Tailwind and HTML from Preline wouldn't suffice. I needed to install Preline to ensure the stepper would be implemented correctly. This prompted me to explore other options, including Google's design document on Material Design, which led me to Angular Material. I found the implementation and style of Angular Material more appealing than Preline, prompting me to make my final style switch to Angular Material. It was advantageous that I had already separated my components and used variables to set certain things like the labels or placeholders, making it very easy to implement Material.
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
  <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 60%;"">
   </div>
   <div style="text-align: center;">
     <img src="" style="max-width: 60%;"">
   </div>
-</div>
 
 to make sure all the fields ended up in the right step, I took a couple of sticky notes and wrote all inputs/necessary fields onto them. This way, I could easily group them and move them around. After grouping all the sticky notes, some of the other interns helped me come up with a couple of names for each step. These steps became: company details, mission team, and performance. Later, the extra step investments was added to these.
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StickyDevideOverSteps.jpg" style="max-width: 60%;">
   </div>
-</div>
 
 ### First proof of concept build
 Around halfway through my internship, I finished the first proof of concept build for the portfolio tool. This build was meant to test the portfolio tool with Hightechxls Ventures and did not have database/API integration yet (the API also did not exist at this point). This build worked with pre-set lists and did not save any data to a database. One of the major features that I also wanted to test with the build was that after the portfolio had been filled in once, the data would be remembered for all following times (again, it was not stored in a database or anything, I did this locally using variables).
 
 For this build, I also added a welcome screen and an end screen. The welcome screen would welcome the user, and the end screen would prompt the user to go through the form again. The second time the user would end up on the end screen, they would be thanked for filling in the form marking the end of the user test.
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Welcome%20page.png" alt="POC Welcome Page" style="max-width: 30%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Welcome%20page.png" style="max-width: 30%;">
   </div>
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Filled%20in%20I1.png" style="max-width: 30%;">
   </div>
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Tahnk%20you%20end%20page%20I1.png" alt="POC Investments Page" style="max-width: 30%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Tahnk%20you%20end%20page%20I1.png" style="max-width: 30%;">
   </div>
-</div>
 
 Another one of the features was the investmentForm component, which essentially acted as its own CRUD (Create, Read, Update, Delete) application. This component was at that point integrated into the performance step of the portfolio tool. Here, ventures had the ability to manage their investments by adding, editing, or removing them.
 
@@ -206,11 +199,10 @@ Following submission, the newly added investment would instantly populate a dyna
 
 The listed ventures would also display an edit and delete button, allowing ventures to make necessary updates to investment details or remove investments.
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Investments%20page.png" alt="POC Investments Page" style="max-width: 30%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Investments%20page.png" style="max-width: 30%;">
   </div>
-</div>
 
 After discussions with the portfolio manager, it became clear that gathering the data filled in by the ventures during the user test was really helpful to test the portfolio tool. This led me to implement and make the API and database to collect all the information entered by the ventures.
 
@@ -222,15 +214,29 @@ After remaking my database using the code-first approach, I used .NET to automat
 
 After connecting all lists, I encountered a problem with how my application was set up. Due to the structure of my venture table at the time, I couldn't differentiate between a venture that hadn't already filled in a portfolio previously and one that had. Because I did not want to make all fields nullable in the database to determine if a user had filled in the form previously, as my supervisor proposed as a possible solution, I looked for a better solution.
 
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" style="max-width: 30%;">
+  <p><em>Database before the venture table split</em></p>
+</div>
+
 That is why I decided to split the venture table into two separate tables: a venture table and a portfolio table. This change meant that I could check if a venture already had a portfolio linked to it. If it did, it meant that they had already filled in the portfolio. If not, it meant that they didn't already have a portfolio. This new structure also aligned better with the venture journey within HighTechXL's application.
 
 This change made it challenging to incorporate temporal tables because it was still hard to know when to update a portfolio or when to add a new portfolio. Therefore, instead of figuring out a way to implement this, I decided to remove the temporal table. Instead, I altered the structure so that each time a venture filled in the tool, a new portfolio entry would be created and linked to that venture. Additionally, I included a new field in the portfolio table to store the date the portfolio was submitted. By adding a new portfolio entry instead of updating an existing one and recording the submission date, I maintained a form of versioning, with the added benefit that it was now possible to edit a particular portfolio in the database if some of the data were incorrect.
 
-To fully resolve the problem, I needed to integrate a login system into my project. However, since HighTechXL already had a login system in place, I decided to request the user's ID instead to identify which venture was filling in the portfolio tool.
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" style="max-width: 30%;">
+  <p><em>Database after the venture table split</em></p>
+</div>
+
+The only thing left to figure out was how I would know which venture was filling in the portfolio tool. This would normally be done using a login system, but because HighTechXL already had a login system in place that could be implemented into my application, and because it would take a lot of time to implement the login system, I decided to request the venture's ID instead on the starting page of my application.
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageLoginID.png" style="max-width: 30%;">
+  <p><em>New welcome page with ID input</em></p>
+</div>
 
 ### Login functionality
 
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageLoginID.png">
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageWithActualLogin.png">
 
 **NULL**
@@ -281,6 +287,7 @@ The Tech2 field is initially disabled. It becomes active only after a selection 
 ***
 ## Challenges and Solutions
 
+//// REMOVE ?
 ### Component Library Limitations
 Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Preline's full system to make creating comoponents easier. Unfortionately, I encountered compatibility issues with Angular, some of the components that preline provided wouldnt work with angulars reactive forms. Because of this I switched to Flowbite, where I only used their styling without installing any plugins, allowing me to easilly style my components without the risk of the plugin not working with angular.
 
@@ -296,8 +303,6 @@ Initially, my unfamiliarity with CSS, HTML, and TailwindCSS led me to adopt Prel
   </div>
 </div>
 
-
-
 As the project grew to include more sophisticated components like a stepper or multi selects, I needed a more robust solution that was guaranteed to work seamlessly with Angular. This led to my decision to adopt Angular Material. Angular Material not only offered a sleek and straightforward design but also provided the certainty of complete compatibility with Angular. This ensured that I could implement the more complex components needed for the project.
 
 <div style="text-align: center;">
@@ -305,6 +310,7 @@ As the project grew to include more sophisticated components like a stepper or m
   <p><em>Third iteration using <a href="https://material.angular.io/" target="_blank">Material Angular</a>.</em></p>
 </div>
 
+//// REMOVE ?
 ### Linking portfolios
 After completing my initial proof of concept, I started to flesh out the functionality of what was initially called a "venture" but has since been renamed "portfolio." One of the earliest and most challenging issues I faced was linking these portfolios to specific start-ups.
 
@@ -312,6 +318,7 @@ In response, my supervisor, Jordy, and I initially considered integrating the po
 
 This encouraged me to lokk for an alternative solution. I decided to rename the original venture table to "portfolio" and created a new venture table equipped with an ID. This new structure mirrored what HighTechXL employed in their venture journey, effectively resembling a user table found in standard applications. This change finally provided a coherent way to link a portfolio to specific venture, resolving the initial functional issues and enhancing the overall system architecture.
 
+//// REMOVE ?
 ### Database Versioning
 Because HightechXL was using a excel file as their main way to store data tehy lacked any kind of versioning. While versioning wasn't initially a requirement, I realized its potential benefits in tracking a venture's progress and aiding in securing investors. One of the solutions I considered was the use of temporal tables. This SQL Server feature seemed promising due to its seamless integration with my database structure and compatibility with PowerBI, which would facilitate historical data management and ensure data integrity.
 

@@ -54,7 +54,7 @@ The development of the Portfolio Tool involved using a blend of technologies tha
 
 - **Frontend**: The frontend of the application was developed using AngularJS and TypeScript, a choice driven by its existing use within HighTechXL. This provided a consistent framework that aligns with other projects and applications within the organization. Material Components were integrated for styling, enhancing the user interface with a modern and responsive design. Additionally, TailwindCSS was incorporated early in the development to assist with the styling of the application.
 
-- **Backend**: The backend functionality was built using a C# API with Entity Framework Core (EF Core) for managing the database interactions. This setup enabled a robust "code first" approach, allowing for an agile development process where changes in the database schema could be managed directly through the codebase.
+- **Backend**: The backend functionality was built using a C# API with Entity Framework Core (EF Core) for managing the database interactions. EF Core with C# was chosen because it was already in use by HighTechXL and was the framework with which my internship mentor had the most experience.
 
 - **Database**: Transitioning from the current Excel-based system to a SQL database is crucial for HighTechXL to manage startup data more efficiently. SQL databases provide the necessary infrastructure for scalability, data integrity, and reliability, essential as HighTechXL continues to grow, and they integrate seamlessly with PowerBI for robust data analysis and reporting. Additionally, a standard SQL database was chosen for its simplicity, ease of use, and compatibility with my personal development setup, making it an ideal solution for the data management needs of this tool.
 
@@ -87,14 +87,14 @@ I used this first week to create a small CRUD application in Angular that used J
 </div>
 
 ### GitHub Organization Setup
-I set up a GitHub organization to manage the project. Within this organization, I created separate repositories for the back-end and front-end components.
+I chose to set up a GitHub organization because it allows for easy management of repositories. In this organization I also set up my front-and back end repositories.
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png" alt="Screenshot of GitHub organization" style="max-width: 60%;">
   <p><em>Screenshot of GitHub organization</em></p>
 </div>
 
 ### Jira Task Board Establishment
-Initially, I used an Agile Scrum methodology with user stories and sub-tasks, as I had successfully done in a previous project [(Proof of Learning Outcomes)](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md). HighTechXL had no specific working method requirements, allowing me flexibility.
+Initially, I used an Agile Scrum methodology with user stories and sub-tasks, as I had done in a previous project [(Proof of Learning Outcomes)](https://github.com/BramVerkuijlen/Portfolio-S3/blob/main/ProofLearningOutcomes/Agile.md). HighTechXL had no specific working method requirements, allowing me flexibility.
 
 To track progress, I established a Task Board in Jira, creating an initial set of tasks and example templates for consistency.
 
@@ -124,8 +124,7 @@ Using the information I gathered, I started creating wireframes for the front-en
 
 
 ### Initial Database Setup
-
-While developling the front-end of my application, I also began developing my database, as this was a very important part of the project and I wanted to get a better understanding on how the databases would work with Power BI. During my research, I came across temporal tables, which allow for versioning within the database. I decided to implement temporal tables early on to test their functionality with Power BI.
+While developing the front-end of my application, I also began working on the database, as it was a big part of the project. During my research, I discovered temporal tables, which allow for versioning within the database—a feature HighTechXL lacked due to their reliance on Excel. I believed that implementing versioning in the database would enable interesting visualizations in Power BI, for example visualizing the growth of a venture. Therefore, I decided to implement temporal tables early on to test their functionality with Power BI.
 
 To test the database setup, I collaborated with another intern, Andrea, who was working on portfolio management and Power BI. I asked Andrea to create a simple report using my database and compare it with one generated from the Excel master file. The results showed that, for Andrea, the database was as easy to use as the Excel master file.
 
@@ -133,6 +132,8 @@ To test the database setup, I collaborated with another intern, Andrea, who was 
 *This is one of the first database diagrams I made.*
 
 ### Finding the Right Style
+
+For my project, there weren't any strict styling requirements, but because I didn't have a lot of experience with CSS and HTML, I decided to use a component library to help with styling. Additionally, because HightechXL was already using Tailwind in other applications, I decided to look for a component library that would work well with Tailwind.
 
 Preline was my first library choice because I liked how the components looked and because of the large number of custom components it offered. Preline worked well in the beginning of the project as it was easy to use and my application was still small and relatively simple. However, as I needed to implement more complicated components like a multi-select, I encountered difficulties with Preline. Specifically, some bugs made it impossible to use Preline's multi-select with Angular's reactive form system that I used to get data out of input components. Additionally, Preline used a LOT of Tailwind code, which was often hard to read.
 
@@ -213,8 +214,19 @@ The listed ventures would also display an edit and delete button, allowing ventu
 
 After discussions with the portfolio manager, it became clear that gathering the data filled in by the ventures during the user test was really helpful to test the portfolio tool. This led me to implement and make the API and database to collect all the information entered by the ventures.
 
-### Creating a Back-end
-**NULL**
+### Creating a Back-end and connecting the front-end
+
+For the back end, I used EF Core due to it being already in use within HighTechXL. Initially, I wanted to use the database I had already created, going for a database-first approach. However, implementing this proved challenging with EF Core due to compatibility issues with its migration system. That is why I transitioned to a code-first approach. In a code-first approach, the database is generated from the code, allowing for more flexibility and making it easier to change the database with the use of migrations.
+
+After remaking my database using the code-first approach, I used .NET to automatically generate my initial API calls using their scaffolding system. The first API routes I created were the ones used to gather the lists that would be used inside my select components, including series, tech1, tech2, and sdgs. Which I integrated with my frontend by fetching the lists from the backend (and consequently, the database) instead of having them pre-coded.
+
+After connecting all lists, I encountered a problem with how my application was set up. Due to the structure of my venture table at the time, I couldn't differentiate between a venture that hadn't already filled in a portfolio previously and one that had. Because I did not want to make all fields nullable in the database to determine if a user had filled in the form previously, as my supervisor proposed as a possible solution, I looked for a better solution.
+
+That is why I decided to split the venture table into two separate tables: a venture table and a portfolio table. This change meant that I could check if a venture already had a portfolio linked to it. If it did, it meant that they had already filled in the portfolio. If not, it meant that they didn't already have a portfolio. This new structure also aligned better with the venture journey within HighTechXL's application.
+
+This change made it challenging to incorporate temporal tables because it was still hard to know when to update a portfolio or when to add a new portfolio. Therefore, instead of figuring out a way to implement this, I decided to remove the temporal table. Instead, I altered the structure so that each time a venture filled in the tool, a new portfolio entry would be created and linked to that venture. Additionally, I included a new field in the portfolio table to store the date the portfolio was submitted. By adding a new portfolio entry instead of updating an existing one and recording the submission date, I maintained a form of versioning, with the added benefit that it was now possible to edit a particular portfolio in the database if some of the data were incorrect.
+
+To fully resolve the problem, I needed to integrate a login system into my project. However, since HighTechXL already had a login system in place, I decided to request the user's ID instead to identify which venture was filling in the portfolio tool.
 
 ### Login functionality
 

@@ -252,7 +252,7 @@ I decided to develop a portion of the login system myself, focusing solely on th
 After successfully configuring the back-end, I updated the welcome page on the front-end to integrate the new login system. Additionally, I created an authentication service responsible for storing the JWT token in the local storage.
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageLoginID.png" style="max-width: 30%;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageWithActualLogin.png" style="max-width: 30%;">
   <p><em>New login screen</em></p>
 </div>
 

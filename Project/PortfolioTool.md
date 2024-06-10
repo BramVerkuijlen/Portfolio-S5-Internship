@@ -313,12 +313,13 @@ After successfully implementing the autocomplete component, I synchronized the f
   <p><em>Synchronize Fund name and chamber of commerce field</em></p>
 </div>
 
+One unavoidable aspect of this new fund system is the need to verify newly added funds for mistakes. Unfortunately, developing an application for the portfolio team to approve funds and portfolios falls outside the scope of this project. However, I did implement a field in the database called "approved," which defaults to false. This allows HighTechXL to review the added funds for any errors and approve them afterward to be added to the autocomplete options.
+
+After implementing the new fields into the investment form and removing some unnecessary fields, the investment form now looks as follows:
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/NewFundFunctionality.png" style="max-width: 30%;">
   <p><em>New fund autocomplete</em></p>
 </div>
-
-**NULL**
 
 ### User test
 <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Windows%20feedback%20form.png">

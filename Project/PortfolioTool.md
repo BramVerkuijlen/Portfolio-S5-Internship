@@ -309,6 +309,11 @@ In the investment form, I utilized Angular's Material Autocomplete component. Wi
 After successfully implementing the autocomplete component, I synchronized the fund name and Chamber of Commerce fields using the ValueChange method. This way one field would automatically update the other, and vice versa. To prevent potential infinite loops, I incorporated a variable to track when the value is permitted to change.
 
 <div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Autocomplete%20Fund%20Synchronize%20Code.png" style="max-width: 30%;">
+  <p><em>Synchronize Fund name and chamber of commerce field</em></p>
+</div>
+
+<div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/NewFundFunctionality.png" style="max-width: 30%;">
   <p><em>New fund autocomplete</em></p>
 </div>

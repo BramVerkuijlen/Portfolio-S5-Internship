@@ -272,6 +272,31 @@ And after creating some login credentials in the database the portfolio tool, wi
 
 The main feedback I received during my halfway meeting at school was that it would be beneficial to expand the portfolio form by adding more advanced functionality that wouldn't typically work in standard forms. For example, making the form reactive depending on the specific venture that needs to fill it in.
 
+However, making the form reactive for each company wouldn't be beneficial for HighTechXL because the data they need from each venture doesn't change depending on the venture. Instead, I had another idea: to make the investment form reactive. The investment step includes a part where the type of investment needs to be selected, such as equity or a CLA (Convertible Loan Agreement). These investments require completely different information to be filled in. For example, equity investments need details about share percentages and valuations, while a CLA requires information about loan terms and conversion conditions. 
+
+#### Type
+After I started sketching out all the necessary information for each type of investment, John, the CEO of HighTechXL, explained to me that although I was free to implement the reactive investments, it was not beneficial for several reasons. 
+
+- First, for HighTechXL, the main pieces of information from an investment that are interesting to see in the portfolio are the type of investment, the stake HighTechXL has, and the amount that has been invested. This information can then be used to calculate the worth of the company, while any additional details can be looked up if needed. 
+
+- Second, all the information that needs to be filled in also needs to be maintained, meaning that the more information required, the more work it will be to update if changes occur. 
+
+- Lastly, requiring more data for each investment would take up more time from the ventures.
+
+Because of this, I decided not to proceed any further with expanding the reactive aspects of the investment form.
+
+#### Fund
+Another part of the investment form that could be expanded was the way an investor was added or selected. Initially, ventures would fill in the information of the fund and its investor (email, name, chamber of commerce number, etc.), which would then be added as an investor in a separate table in the database. The problem was that there was no way to select investors already in the database. Every time a new investment was added, a new investor entry would also be created, even if multiple ventures had investments from the same investor.
+
+Normally, this wouldn't be a big problem because we could filter by the name of an investor to find all the ventures that have received investments from that investor. Unfortunately, this approach wouldn't work reliably because people often write names differently, using various capitalizations or spacing.
+
+The first thing I did to try and solve the problem was to split the investor table into two separate tables: a fund table and an investment manager table. The fund table would store the name of the investment fund and the Chamber of Commerce number, while the investment manager table would store the name and email of the manager. This way, I could keep track of the fund and manager separately. The fund could be linked to multiple investments, and the manager could be separate for each investment, as the manager's information was only necessary for contacting purposes.
+
+After splitting the table, I needed a way to not only select a fund but also create a new fund. Although I could have implemented this with another new form, I felt that it would be too much to have another form pop up just for adding a fund. That is why I decided to use a type of autocomplete feature commonly seen when entering an address.
+
+The idea was that the user would be able to start typing a fund name, and all funds with similar names already in the database would pop up. The user could then choose to select a fund from the list, which would automatically fill in the Chamber of Commerce number for the selected fund. If the venture had an investment with a new investor, they could simply fill in the fund details without selecting one of the "autocomplete options," which would also add the fund to the database.
+
+To implement this I made use of Angulars material autocomplete component, which with a bit of alteration would already have the functionallity for filtering the funds by name and displaying the options in a list above the input field. One of the things I altered was adding a dispaly function that would determine what would be dipslayed and looked at when filtering in the component. I implement because I also wanted to use the component for the chamber of commerce field (which I also wanted to give the autocomplete functionallity) because the autocomplete was only able to display the funds name and filter on the name it was impossible to select the chamber of commerce
 
 **NULL**
 

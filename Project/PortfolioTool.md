@@ -296,7 +296,11 @@ After splitting the table, I needed a way to not only select a fund but also cre
 
 The idea was that the user would be able to start typing a fund name, and all funds with similar names already in the database would pop up. The user could then choose to select a fund from the list, which would automatically fill in the Chamber of Commerce number for the selected fund. If the venture had an investment with a new investor, they could simply fill in the fund details without selecting one of the "autocomplete options," which would also add the fund to the database.
 
-To implement this I made use of Angulars material autocomplete component, which with a bit of alteration would already have the functionallity for filtering the funds by name and displaying the options in a list above the input field. One of the things I altered was adding a dispaly function that would determine what would be dipslayed and looked at when filtering in the component. I implement because I also wanted to use the component for the chamber of commerce field (which I also wanted to give the autocomplete functionallity) because the autocomplete was only able to display the funds name and filter on the name it was impossible to select the chamber of commerce
+In the investment form, I utilized Angular's Material Autocomplete component. With a bit of alteration, it already had the functionality to filter the funds by name and display the options in a list above the input field. One of the modifications I made was adding a display function to determine what would be shown and searched for when filtering. This allowed me to use the same component for the Chamber of Commerce field.
+
+After successfully implementing the autocomplete component, I synchronized the fund name and Chamber of Commerce fields using the ValueChange method. This way one field would automatically update the other, and vice versa. To prevent potential infinite loops, I incorporated a variable to track when the value is permitted to change.
+
+
 
 **NULL**
 

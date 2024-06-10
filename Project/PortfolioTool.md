@@ -331,14 +331,12 @@ After implementing the new fields into the investment form and removing some unn
 
 ### Loading Previous Data
 
-A critical feature of our application is its ability to load previous data for user convenience and efficiency. When users return to the application, they don't have to start from scratch; instead, the system automatically checks the database for existing data associated with the user's venture. If previous data is found, it pre-populates the forms with this information.
-
-This functionality allows ventures to easily review and update their information as needed without re-entering all data, significantly reducing the time and effort involved in maintaining up-to-date records. Once the form is completed and submitted, the updated information is stored in the database, ensuring that the most recent data is always available.
+The main feature of the portfolio tool is that the data from the previous portfolio will be pre-loaded into the form. This way, ventures don't have to start from scratch; instead, they only need to update their data. Most of the data remains the same over time, such as the company name, location, problem, and solution. By only having to update their data instead of filling it in every time, it hopefully makes it easier and quicker to use the portfolio tool after the first time, hopefully, making it more appealing for ventures to use the tool.
 
 ### Tech1 and Tech2 Selection
-In the application form, users encounter two fields labeled as Tech1 and Tech2. These labels, while perhaps initially unclear to some, are terms used within HighTechXL to denote 'Technology Tier 1' and 'Technology Tier 2,' respectively. Technology Tier 2 is essentially a subcategory of Tier 1.
+The technology tiers are used within HighTechXL to specify the technology a venture is working with. Tech Tier 1 represents the main technology, such as Nanotechnology, while Tier 2 serves as sub-categories for the technologies. For instance, Nanotechnology, a Tier 1 technology, has the Tier 2 categories: NanoMaterials, Nanoscale Devices, Bionanotech, and NanoManufacturing.
 
-The Tech2 field is initially disabled. It becomes active only after a selection is made in Tech1. Upon choosing a Tech1 category, the corresponding Tech2 options are dynamically loaded and enabled. This ensures that the choices in Tech2 are relevant to the broader category selected in Tech1, preventing mismatched or irrelevant data entries. This functionality helps the user through a logical sequence of choices, improving the overall ease and accuracy of data entry.
+In my portfolio tool, this translates to two fields labeled as Technology Tier 1 and Technology Tier 2. The Tech2 field is initially disabled. It becomes active only after a selection is made in Tech1. Upon choosing a Tech1 category, the corresponding Tech2 options are dynamically loaded and enabled. This ensures that the choices in Tech2 are relevant to the category selected in Tech1, preventing mismatched or irrelevant data entries. This functionality guides the user through a logical sequence of choices, improving the ease and accuracy of data entry.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
@@ -352,9 +350,6 @@ The Tech2 field is initially disabled. It becomes active only after a selection 
 </div>
 
 ### Investements
-**NULL**
-
-### Stepper?
 **NULL**
 
 ***

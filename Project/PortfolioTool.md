@@ -1,6 +1,4 @@
-# The Portfolio Tool
-
-
+# The Portfolio Tool 
 ***
 
 ## Table of Contents
@@ -12,6 +10,7 @@
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Project Outcomes and Impact](#project-outcomes-and-impact)
 - [Lessons Learned](#lessons-learned)
+
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>
 
@@ -83,7 +82,7 @@ The first week, when I was supposed to start at the company, my supervisor was o
 I used this first week to create a small CRUD application in Angular that used JSON server as a mock database. Additionally, I took the time to become familiar with Tailwind, as HighTechXL also used Tailwind. Having previously used .NET and Vue for front-end development, adapting to Angular was relatively simple due to its many similarities with Vue. However, I initially struggled with Angular's dependency injection and observables.
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png" alt="First week CRUD application using Angular and Tailwind" style="max-width: 60%;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png" alt="First week CRUD application using Angular and Tailwind" style="max-width: 30%;">
   <p><em>First week CRUD application using Angular and Tailwind</em></p>
 </div>
 
@@ -91,7 +90,7 @@ I used this first week to create a small CRUD application in Angular that used J
 I chose to set up a GitHub organization because it allows for easy management of repositories. In this organization I also set up my front-and back end repositories.
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png" alt="Screenshot of GitHub organization" style="max-width: 60%;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png" alt="Screenshot of GitHub organization" style="max-width: 30%;">
   <p><em>Screenshot of GitHub organization</em></p>
 </div>
 
@@ -103,7 +102,7 @@ To track progress, I established a Task Board in Jira, creating an initial set o
 However, as the project evolved, rapidly changing requirements and solo work made structured Scrum impractical. I shifted to a more flexible approach, enabling swift responses to changes and quick decision-making, which was crucial for the project's success.
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png" alt="Screenshot of Jira task board" style="max-width: 60%;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png" alt="Screenshot of Jira task board" style="max-width: 30%;">
   <p><em>Screenshot of Jira task board</em></p>
 </div>
 
@@ -115,12 +114,12 @@ The first week at the company, I focused on gathering information on what needs 
 Using the information I gathered, I started creating wireframes for the front-end of my application.
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png" alt="Wireframe 1: Initial design for the portfolio tool" style="max-width: 60%;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png" alt="Wireframe 1: Initial design for the portfolio tool" style="max-width: 30%;">
   <p><em>Wireframe 1: Initial design for the portfolio tool</em></p>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png" alt="Wireframe 2: Detailed layout for user interface" style="max-width: 60%;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png" alt="Wireframe 2: Detailed layout for user interface" style="max-width: 30%;">
   <p><em>Wireframe 2: Detailed layout for user interface</em></p>
 </div>
 
@@ -141,29 +140,29 @@ Preline was my first library choice because I liked how the components looked an
 
 
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First iteration using Preline 1" style="max-width: 60%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First iteration using Preline 1" style="max-width: 30%;">
     <p><em>First iteration using Preline - Screenshot 1</em></p>
   </div>
   
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png" alt="First iteration using Preline - Stepper Code" style="max-width: 60%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png" alt="First iteration using Preline - Stepper Code" style="max-width: 30%;">
     <p><em>First iteration using Preline - Stepper Code</em></p>
   </div>
 
 In the second iteration, I wanted to take a step back because I was getting a bit overwhelmed by all the Tailwind code. I decided to set up my form again using Preline, based on a recommendation I received in the Angular Discord community. However, I chose not to implement Preline completely. Instead, I only copied the Tailwind HTML from the Preline website and did not install Preline into my program. While taking this step back, I also decided to temporarily not use a stepper and to put all the fields underneath each other. Additionally, I organized my input fields by placing them in their own separate folder within the components folder
 
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite 1" style="max-width: 60%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite 1" style="max-width: 30%;">
     <p><em>Second iteration using Flowbite - Screenshot 1</em></p>
   </div>
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png" alt="Second iteration using Flowbite - Code" style="max-width: 60%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png" alt="Second iteration using Flowbite - Code" style="max-width: 30%;">
     <p><em>Second iteration using Flowbite - Code</em></p>
   </div>
 
 After getting to a point where a stepper needed to be implemented again, the approach of only using the Tailwind and HTML from Preline wouldn't suffice. I needed to install Preline to ensure the stepper would be implemented correctly. This prompted me to explore other options, including Google's design document on Material Design, which led me to Angular Material. I found the implementation and style of Angular Material more appealing than Preline, prompting me to make my final style switch to Angular Material. It was advantageous that I had already separated my components and used variables to set certain things like the labels or placeholders, making it very easy to implement Material.
 
  <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 60%;"">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 30%;"">
   </div>
   <div style="text-align: center;">
     <img src="" style="max-width: 60%;"">
@@ -172,7 +171,7 @@ After getting to a point where a stepper needed to be implemented again, the app
 to make sure all the fields ended up in the right step, I took a couple of sticky notes and wrote all inputs/necessary fields onto them. This way, I could easily group them and move them around. After grouping all the sticky notes, some of the other interns helped me come up with a couple of names for each step. These steps became: company details, mission team, and performance. Later, the extra step investments was added to these.
 
   <div style="text-align: center;">
-    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StickyDevideOverSteps.jpg" style="max-width: 60%;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StickyDevideOverSteps.jpg" style="max-width: 30%;">
   </div>
 
 ### First proof of concept build

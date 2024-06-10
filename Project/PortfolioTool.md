@@ -298,9 +298,20 @@ The idea was that the user would be able to start typing a fund name, and all fu
 
 In the investment form, I utilized Angular's Material Autocomplete component. With a bit of alteration, it already had the functionality to filter the funds by name and display the options in a list above the input field. One of the modifications I made was adding a display function to determine what would be shown and searched for when filtering. This allowed me to use the same component for the Chamber of Commerce field.
 
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/AutocompleteComponentCode.png" style="max-width: 30%;">
+  <p><em>Altered autocomplete component typescript</em></p>
+
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/AutocompleteComponentHTML.png" style="max-width: 30%;">
+  <p><em>Altered autocomplete component HTML</em></p>
+</div>
+
 After successfully implementing the autocomplete component, I synchronized the fund name and Chamber of Commerce fields using the ValueChange method. This way one field would automatically update the other, and vice versa. To prevent potential infinite loops, I incorporated a variable to track when the value is permitted to change.
 
-
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/NewFundFunctionality.png" style="max-width: 30%;">
+  <p><em>New fund autocomplete</em></p>
+</div>
 
 **NULL**
 

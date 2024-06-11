@@ -375,10 +375,17 @@ In my portfolio tool, this translates to two fields labeled as Technology Tier 1
   </div>
 </div>
 
-### Investements
+### Investments
 
 The investment step in my portfolio tool is where ventures can see, add, remove, and update all their investments.
 
+Ventures can add new investments by clicking on the "Add Investment" button. This action triggers a pop-up form where they can enter details such as the type of investment, date, and the fund that invested. Upon submission, the investment is added to the database.
+
+Existing investments can be updated by clicking on the "Update" button next to the investment information in the list. This action opens a pop-up form where the venture can edit the investment details before resubmitting the changes.
+
+If a venture needs to remove an investment, they can do so by clicking on the "Delete" button associated with that investment. This action removes the investment from the list and database.
+
+This way, it is easy for ventures to add, view, update, and delete investments, ensuring they can manage their investment information efficiently and accurately.
 
 ***
 ## Challenges and Solutions

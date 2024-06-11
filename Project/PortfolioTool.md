@@ -376,7 +376,9 @@ In my portfolio tool, this translates to two fields labeled as Technology Tier 1
 </div>
 
 ### Investements
-**NULL**
+
+The investment step in my portfolio tool is where ventures can see, add, remove, and update all their investments.
+
 
 ***
 ## Challenges and Solutions

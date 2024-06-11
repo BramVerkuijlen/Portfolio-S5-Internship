@@ -46,7 +46,12 @@ This role provided me with significant hands-on experience in managing a full-cy
 ## Technical Details
 
 ### Architecture Diagrams
-**NULL**
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApplicationDiagram.png" alt="Screenshot of GitHub organization" style="max-width: 30%;">
+  <p><em>System Overview Diagram</em></p>
+</div>
+
  
 ### Technology Stack
 The development of the Portfolio Tool involved using a blend of technologies that were already familiar within HighTechXL, alongside some new adaptations to meet the specific needs of the project.

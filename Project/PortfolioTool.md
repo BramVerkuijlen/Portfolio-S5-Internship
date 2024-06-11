@@ -52,6 +52,10 @@ This role provided me with significant hands-on experience in managing a full-cy
   <p><em>System Overview Diagram</em></p>
 </div>
 
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20diagram%20actually%20final.png" style="max-width: 30%;">
+  <p><em>Database Diagram</em></p>
+</div>
  
 ### Technology Stack
 The development of the Portfolio Tool involved using a blend of technologies that were already familiar within HighTechXL, alongside some new adaptations to meet the specific needs of the project.

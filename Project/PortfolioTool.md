@@ -321,10 +321,27 @@ After implementing the new fields into the investment form and removing some unn
 </div>
 
 ### User test
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Windows%20feedback%20form.png">
-<img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/PortfolioUsertestMailTemplate.png">
+I chose to do my user test using an online form because the ventures are often very busy. An online form allows them to provide feedback at their convenience, rather than having to schedule a meeting. This approach is also easier for me, as I can quickly send out many forms without needing to plan and attend multiple meetings.
 
-**NULL**
+Using Windows Forms, I created my form to allow ventures to fill in a step of the portfolio tool first, followed by a few questions after each step. This helps me get feedback on each step rather than the form as a whole. 
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Windows%20feedback%20form.png" style="max-width: 30%;">
+  <p><em>Start of the form</em></p>
+</div>
+
+Additionally, I altered the end page of my application to include a button that returns the user to the start of the portfolio tool where the information will be pre-filled. The feedback form also includes some final questions on what they think about this feature and if it would help them fill in the form quicker. 
+
+I asked multiple ventures in person if they would be willing to take the time in the upcoming weeks to fill out the form that I would send to them via email, making sure that I made a connection with the ventures and that they knew about the tool. All of them agreed, giving me 10 ventures that would help me gather feedback on my tool. 
+
+Afterwards, I created a login for each venture using secure passwords and distributed these credentials along with the feedback form and the link to where the portfolio tool was hosted via email, using a template I made.
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/PortfolioUsertestMailTemplate.png" style="max-width: 30%;">
+  <p><em>User test email template</em></p>
+</div>
+
+Unfortunately, at the time of writing this, only one of the ventures has filled in the form, so I'm still waiting on the rest to provide their feedback.
 
 ***
 ## Key Features and Functionality

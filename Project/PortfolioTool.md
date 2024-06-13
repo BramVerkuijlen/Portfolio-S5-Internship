@@ -379,6 +379,11 @@ In my portfolio tool, this translates to two fields labeled as Technology Tier 1
 
 The investment step in my portfolio tool is where ventures can see, add, remove, and update all their investments.
 
+<div style="text-align: center;">
+    <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/InvestmentStep.png">
+    <p><em>Tech1 and Tech2 fields active, showing selectable options in both fields after Tech1 is selected.</em></p>
+  </div>
+
 Ventures can add new investments by clicking on the "Add Investment" button. This action triggers a pop-up form where they can enter details such as the type of investment, date, and the fund that invested. Upon submission, the investment is added to the database.
 
 Existing investments can be updated by clicking on the "Update" button next to the investment information in the list. This action opens a pop-up form where the venture can edit the investment details before resubmitting the changes.

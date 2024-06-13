@@ -12,4 +12,4 @@ I also engaged in the new Tech Cohort, where HighTechXL showcased their newly ac
 
 My involvement extended to representing HighTechXL at the Fontys TechEvent on Strijp S, where I introduced students to HighTechXL and took the opportunity to expand my network by engaging with various companies present at the event.
 
-
+<small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

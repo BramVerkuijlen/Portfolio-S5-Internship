@@ -190,12 +190,15 @@ For this build, I also added a welcome screen and an end screen. The welcome scr
 
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Welcome%20page.png" style="max-width: 30%;">
+    <p><em>Proof of concept build 1 - Welcome page.</em></p>
   </div>
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Filled%20in%20I1.png" style="max-width: 30%;">
+    <p><em>Proof of concept build 1 - Company details step.</em></p>
   </div>
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Tahnk%20you%20end%20page%20I1.png" style="max-width: 30%;">
+    <p><em>Proof of concept build 1 - End page.</em></p>
   </div>
 
 Another one of the features was the investmentForm component, which essentially acted as its own CRUD (Create, Read, Update, Delete) application. This component was at that point integrated into the performance step of the portfolio tool. Here, ventures had the ability to manage their investments by adding, editing, or removing them.
@@ -417,10 +420,15 @@ After this easy fix, the system stabilized, and the API worked again. Although t
 
 ### Technical Skills
 
-angular
-tailwind
-efcore
-**NULL**
+During this project, I significantly enhanced my technical skills across several key areas. Learning Angular was a major focus since it served as the framework for the frontend of my portfolio tool. Initially, Angular had it`s challenges, particularly with its injection system, subscriptions and other concepts. However, using my previous experience with Vue.js, which shares some similarities with Angular, I managed to get pretty skilled at using Angular.
+
+While I didn't create many components from scratch, I frequently had to customize existing components, particularly before I switched to Angular Material, when I used preline and flowbite. This experience allowed me to gain a better understanding of Tailwind CSS and HTML.
+
+My previous experience with EF Core was essentially limited to creating basic, auto-generated APIs. However, this project allowed me to explore EF Core in greater depth. During this project, I tried to implement both database-first and code-first approaches, ultimately finding that the code-first approach worked better for my needs. Working on a larger-scale project also helped me understand more about how EF Core interacts with databases.
+Additionally, I successfully implemented a JWT-based login system, which was a new skill for me.
+
+I also expanded my knowledge of form builders and Power BI during the research I conducted for this project (["How can HighTechXL implement an information management system that efficiently stores, and easily retrieves startup data to optimize the support processes?"](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/research/How%20can%20HighTechXL%20implement%20an%20information%20management%20system%20that%20efficiently%20stores%2C%20and%20easily%20retrieves%20startup%20data%20to%20optimize%20the%20support%20processes%3F.md). This research gives more insight on some of the technological decisions made.).
+Additionally, I encountered temporal tables during this research. Although they weren't suitable for implementation in this project, they could be beneficial for future projects.
 
 ### Soft Skills
 **NULL**

@@ -409,17 +409,20 @@ After this easy fix, the system stabilized, and the API worked again. Although t
 
 ***
 ## Project Outcomes and Impact
-### Results
-**NULL**
 
-### Impact
-**NULL**
+### Results
+During the project, it became clear that switching to a database would offer several benefits for HighTechXL. Firstly, it provided a stricter and more robust method to store venture information, ensuring data integrity and reliability compared to using a master file.
+
+The database also offered versioning capabilities, allowing HighTechXL to track the progression of ventures over time, even after they have completed their participation in the program.
+
+Additionally, Power BI's capability to query data directly from the database simplified the process of loading and updating data in Power BI, enhancing the organization's ability to analyze and visualize venture data effectively.
+
+Regarding my portfolio tool, unfortunately, at the time of writing this, only one of the ventures has filled in the form. Therefore, I am still waiting for feedback from the remaining ventures before I can draw conclusions about the portfolio tool as a whole.
 
 ***
 ## Lessons Learned
 
 ### Technical Skills
-
 During this project, I significantly enhanced my technical skills across several key areas. Learning Angular was a major focus since it served as the framework for the frontend of my portfolio tool. Initially, Angular had it`s challenges, particularly with its injection system, subscriptions and other concepts. However, using my previous experience with Vue.js, which shares some similarities with Angular, I managed to get pretty skilled at using Angular.
 
 While I didn't create many components from scratch, I frequently had to customize existing components, particularly before I switched to Angular Material, when I used preline and flowbite. This experience allowed me to gain a better understanding of Tailwind CSS and HTML.

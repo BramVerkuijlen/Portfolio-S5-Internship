@@ -49,12 +49,12 @@ This role provided me with significant hands-on experience in managing a full-cy
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApplicationDiagram.png" alt="Screenshot of GitHub organization" style="max-width: 30%;">
-  <p><em>System Overview Diagram</em></p>
+  <p><em>System Overview Diagram.</em></p>
 </div>
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20diagram%20actually%20final.png" style="max-width: 30%;">
-  <p><em>Database Diagram</em></p>
+  <p><em>Database Diagram.</em></p>
 </div>
  
 ### Technology Stack
@@ -92,7 +92,7 @@ I used this first week to create a small CRUD application in Angular that used J
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Learning%20Angular%20using%20Json%20Server.png" alt="First week CRUD application using Angular and Tailwind" style="max-width: 30%;">
-  <p><em>First week CRUD application using Angular and Tailwind</em></p>
+  <p><em>First week CRUD application using Angular and Tailwind.</em></p>
 </div>
 
 ### GitHub Organization Setup
@@ -100,7 +100,7 @@ I chose to set up a GitHub organization because it allows for easy management of
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/HTXL%20internship%20organization.png" alt="Screenshot of GitHub organization" style="max-width: 30%;">
-  <p><em>Screenshot of GitHub organization</em></p>
+  <p><em>Screenshot of GitHub organization.</em></p>
 </div>
 
 ### Jira Task Board Establishment
@@ -112,7 +112,7 @@ However, as the project evolved, rapidly changing requirements and solo work mad
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png" alt="Screenshot of Jira task board" style="max-width: 30%;">
-  <p><em>Screenshot of Jira task board</em></p>
+  <p><em>Screenshot of Jira task board.</em></p>
 </div>
 
 
@@ -124,12 +124,12 @@ Using the information I gathered, I started creating wireframes for the front-en
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe1%20HTXL.png" alt="Wireframe 1: Initial design for the portfolio tool" style="max-width: 30%;">
-  <p><em>Wireframe 1: Initial design for the portfolio tool</em></p>
+  <p><em>Wireframe 1: Initial design for the portfolio tool.</em></p>
 </div>
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Wireframe2%20HTXL.png" alt="Wireframe 2: Detailed layout for user interface" style="max-width: 30%;">
-  <p><em>Wireframe 2: Detailed layout for user interface</em></p>
+  <p><em>Wireframe 2: Initial layout for user interface.</em></p>
 </div>
 
 
@@ -150,31 +150,28 @@ Preline was my first library choice because I liked how the components looked an
 
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I1.1.png" alt="First iteration using Preline 1" style="max-width: 30%;">
-    <p><em>First iteration using Preline - Screenshot 1</em></p>
+    <p><em>First iteration using Preline.</em></p>
   </div>
   
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/StepperPrelineCode.png" alt="First iteration using Preline - Stepper Code" style="max-width: 30%;">
-    <p><em>First iteration using Preline - Stepper Code</em></p>
+    <p><em>First iteration using Preline - Stepper Code.</em></p>
   </div>
 
 In the second iteration, I wanted to take a step back because I was getting a bit overwhelmed by all the Tailwind code. I decided to set up my form again using Preline, based on a recommendation I received in the Angular Discord community. However, I chose not to implement Preline completely. Instead, I only copied the Tailwind HTML from the Preline website and did not install Preline into my program. While taking this step back, I also decided to temporarily not use a stepper and to put all the fields underneath each other. Additionally, I organized my input fields by placing them in their own separate folder within the components folder
 
   <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WebApp%20I2%20HTXL.png" alt="Second iteration using Flowbite 1" style="max-width: 30%;">
-    <p><em>Second iteration using Flowbite - Screenshot 1</em></p>
+    <p><em>Second iteration using Flowbite.</em></p>
   </div>
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/FormPrelineCode.png" alt="Second iteration using Flowbite - Code" style="max-width: 30%;">
-    <p><em>Second iteration using Flowbite - Code</em></p>
+    <p><em>Second iteration using Flowbite - Code.</em></p>
   </div>
 
 After getting to a point where a stepper needed to be implemented again, the approach of only using the Tailwind and HTML from Preline wouldn't suffice. I needed to install Preline to ensure the stepper would be implemented correctly. This prompted me to explore other options, including Google's design document on Material Design, which led me to Angular Material. I found the implementation and style of Angular Material more appealing than Preline, prompting me to make my final style switch to Angular Material. It was advantageous that I had already separated my components and used variables to set certain things like the labels or placeholders, making it very easy to implement Material.
 
  <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/POC%20Company%20Details.png" alt="POC Company Details Page" style="max-width: 30%;"">
-  </div>
-  <div style="text-align: center;">
-    <img src="" style="max-width: 60%;"">
   </div>
 
 to make sure all the fields ended up in the right step, I took a couple of sticky notes and wrote all inputs/necessary fields onto them. This way, I could easily group them and move them around. After grouping all the sticky notes, some of the other interns helped me come up with a couple of names for each step. These steps became: company details, mission team, and performance. Later, the extra step investments was added to these.
@@ -226,7 +223,7 @@ After connecting all lists, I encountered a problem with how my application was 
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/DBO%20post%20POC1%20V2.png?raw=true" style="max-width: 30%;">
-  <p><em>Database before the venture table split</em></p>
+  <p><em>Database before the venture table split.</em></p>
 </div>
 
 That is why I decided to split the venture table into two separate tables: a venture table and a portfolio table. This change meant that I could check if a venture already had a portfolio linked to it. If it did, it meant that they had already filled in the portfolio. If not, it meant that they didn't already have a portfolio. This new structure also aligned better with the venture journey within HighTechXL's application.
@@ -235,14 +232,14 @@ This change made it challenging to incorporate temporal tables because it was st
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Screenshot%20Database%20after%20venture%20table%20split%202024-05-08%20144702.png?raw=true" style="max-width: 30%;">
-  <p><em>Database after the venture table split</em></p>
+  <p><em>Database after the venture table split.</em></p>
 </div>
 
 The only thing left to figure out was how I would know which venture was filling in the portfolio tool. This would normally be done using a login system, but because HighTechXL already had a login system in place that could be implemented into my application, and because it would take a lot of time to implement the login system, I decided to request the venture's ID instead on the starting page of my application.
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageLoginID.png" style="max-width: 30%;">
-  <p><em>New welcome page with ID input</em></p>
+  <p><em>New welcome page with ID input.</em></p>
 </div>
 
 ### Login Functionality
@@ -261,7 +258,7 @@ After successfully configuring the back-end, I updated the welcome page on the f
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/WelcomePageWithActualLogin.png" style="max-width: 30%;">
-  <p><em>New login screen</em></p>
+  <p><em>New login screen.</em></p>
 </div>
 
 To get the other API calls working in my front-end again, I implemented an interceptor that intercepts the calls and adds the token form the local storage as a header.
@@ -308,17 +305,17 @@ In the investment form, I utilized Angular's Material Autocomplete component. Wi
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/AutocompleteComponentCode.png" style="max-width: 30%;">
-  <p><em>Altered autocomplete component typescript</em></p>
+  <p><em>Altered autocomplete component typescript.</em></p>
 
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/AutocompleteComponentHTML.png" style="max-width: 30%;">
-  <p><em>Altered autocomplete component HTML</em></p>
+  <p><em>Altered autocomplete component HTML.</em></p>
 </div>
 
 After successfully implementing the autocomplete component, I synchronized the fund name and Chamber of Commerce fields using the ValueChange method. This way one field would automatically update the other, and vice versa. To prevent potential infinite loops, I incorporated a variable to track when the value is permitted to change.
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Autocomplete%20Fund%20Synchronize%20Code.png" style="max-width: 30%;">
-  <p><em>Synchronize Fund name and chamber of commerce field</em></p>
+  <p><em>Synchronize Fund name and chamber of commerce field.</em></p>
 </div>
 
 One unavoidable aspect of this new fund system is the need to verify newly added funds for mistakes. Unfortunately, developing an application for the portfolio team to approve funds and portfolios falls outside the scope of this project. However, I did implement a field in the database called "approved," which defaults to false. This allows HighTechXL to review the added funds for any errors and approve them afterward to be added to the autocomplete options.
@@ -326,7 +323,7 @@ One unavoidable aspect of this new fund system is the need to verify newly added
 After implementing the new fields into the investment form and removing some unnecessary fields, the investment form now looks as follows:
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/NewFundFunctionality.png" style="max-width: 30%;">
-  <p><em>New fund autocomplete</em></p>
+  <p><em>New fund autocomplete.</em></p>
 </div>
 
 ### User test
@@ -336,7 +333,7 @@ Using Windows Forms, I created my form to allow ventures to fill in a step of th
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Windows%20feedback%20form.png" style="max-width: 30%;">
-  <p><em>Start of the form</em></p>
+  <p><em>Start of the form.</em></p>
 </div>
 
 Additionally, I altered the end page of my application to include a button that returns the user to the start of the portfolio tool where the information will be pre-filled. The feedback form also includes some final questions on what they think about this feature and if it would help them fill in the form quicker. 
@@ -347,7 +344,7 @@ Afterwards, I created a login for each venture using secure passwords and distri
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/PortfolioUsertestMailTemplate.png" style="max-width: 30%;">
-  <p><em>User test email template</em></p>
+  <p><em>User test email template.</em></p>
 </div>
 
 Unfortunately, at the time of writing this, only one of the ventures has filled in the form, so I'm still waiting on the rest to provide their feedback.
@@ -381,7 +378,7 @@ The investment step in my portfolio tool is where ventures can see, add, remove,
 
 <div style="text-align: center;">
     <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/InvestmentStep.png">
-    <p><em>Tech1 and Tech2 fields active, showing selectable options in both fields after Tech1 is selected.</em></p>
+    <p><em>The investment step with open investment form.</em></p>
   </div>
 
 Ventures can add new investments by clicking on the "Add Investment" button. This action triggers a pop-up form where they can enter details such as the type of investment, date, and the fund that invested. Upon submission, the investment is added to the database.

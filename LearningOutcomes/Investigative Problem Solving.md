@@ -7,3 +7,5 @@
 - Pre filled data
 - investment fund autofill
 - versioning in the database
+
+<small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

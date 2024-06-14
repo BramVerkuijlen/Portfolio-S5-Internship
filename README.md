@@ -52,7 +52,26 @@ For detailed information on my project during my internship, see the link below:
 - [Portfolio Tool Project](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md) - A deep dive into the development and outcomes of the Portfolio Tool I developed for HighTechXL.
 
 ***
-## Personal reflection 
+## Personal Reflection
+
+### Software Growth
+During this project, I significantly enhanced my technical skills. Learning Angular was a major focus, and despite initial challenges with its injection system and subscriptions, my experience with Vue.js and .NET helped me quickly adapt. Customizing existing components using Preline and Flowbite improved my understanding of Tailwind CSS and HTML.
+
+I also delved deeper into EF Core, exploring both database-first and code-first approaches, and found the code-first approach more suitable. Working on a larger-scale project enhanced my understanding of EF Core's database interactions. Additionally, I implemented a JWT-based login system, a new skill for me.
+
+Through my research, I expanded my knowledge of form builders, Power BI, and temporal tables, which, while not used in this project, could be valuable for future endeavors.
+
+### Soft Skills
+Throughout the project, I also learned a lot about HighTechXL, venture building, and the HighTechXL ecosystem. HighTechXL often hosted events for their ventures and others interested in tech and venture building. These events significantly improved my communication skills, especially through workshops related to the project. For example, during SheCanXL, I attended a workshop on pitching—not just pitching an idea but pitching yourself—which aligned with a workshop on body language held during the same event.
+
+I also improved my problem-solving skills by finding solutions to multiple issues, such as the login system. This experience made me more resourceful and effective in tackling technical challenges.
+
+### What went well
+**NULL**
+
+### What could have gone better
+
+At the beginning of the internship, I did not communicate effectively with my company mentor regarding my school commitments. I underestimated the importance of keeping them informed about my academic responsibilities. This lack of communication led to feedback midway through the internship that I had not sufficiently discussed my school obligations. To address this, I made a concerted effort to provide regular updates to my mentor on both my school progress and the project's development in the latter part of the internship.
 
 ***
 ## Conclusion

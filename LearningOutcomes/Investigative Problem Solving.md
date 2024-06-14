@@ -4,7 +4,7 @@
 
 I demonstrated my investigative problem-solving skills multiple times during my internship. Here are a few problems I tackled during my internship:
 
-## Assessing the Need for the Portfolio Tool
+## Checking the Need for the Portfolio Tool
 One of the first steps in my project was to determine if the portfolio tool was necessary. To do this, I conducted extensive research on various data-gathering tools such as Windows Forms and Flutter. I also evaluated solutions that would integrate well with Power BI and address HighTechXL's data storage challenges. This comprehensive analysis ensured that the solution I developed was both needed and effective.
 
 ## Login System

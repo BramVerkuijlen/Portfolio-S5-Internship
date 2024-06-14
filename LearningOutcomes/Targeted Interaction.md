@@ -5,4 +5,10 @@ During my internship at HighTechXL, effective collaboration and targeted communi
 
 Although I initially attempted to implement an agile workflow using Jira to manage my tasks efficiently, frequent events, changes, and the solo nature of my work made it challenging to maintain this workflow. Ultimately, I decided to discontinue the structured agile approach in favor of a more flexible, adaptive method better suited for the project.
 
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/Jira%20board.png" alt="Screenshot of Jira task board" style="max-width: 30%;">
+  <p><em>Screenshot of Jira task board.</em></p>
+</div>
+
+
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

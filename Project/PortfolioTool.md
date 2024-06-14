@@ -434,15 +434,8 @@ I also expanded my knowledge of form builders and Power BI during the research I
 Additionally, I encountered temporal tables during this research. Although they weren't suitable for implementation in this project, they could be beneficial for future projects.
 
 ### Soft Skills
+Throughout the project, I also learned a lot about HighTechXL, venture building, and the HighTechXL ecosystem. HighTechXL often hosted events for their ventures and others interested in tech and venture building. These events significantly improved my communication skills, especially through workshops related to the project. For example, during SheCanXL, I attended a workshop on pitching—not just pitching an idea but pitching yourself—which aligned with a workshop on body language held during the same event.
 
-**Critical Thinking and Problem-Solving:**
-Throughout the project, I applied critical thinking to make logical decisions and overcome obstacles effectively. For example, when integrating a login system into the portfolio tool, I decided to implement only essential parts of the system. This was because HighTechXL already had a login system, which was already in place. Building a complete login system from scratch would have been time-consuming and could delay the project.
-
-**Communication:**
-During my time at HighTechXL, I not only improved my communication skills within the team, but I also improved my communication as a whole. I attended workshops on pitching and body language organized by HighTechXL.
-I also made a point to participate in all HighTechXL events. This allowed me to meet new people, expand my professional network, and better understand the company's environment. expanding my network in the process.
-
-**Adaptability:**
-Throughout the project, I demonstrated adaptability by rapidly acquiring and implementing new technologies such as Angular and EF Core. This flexibility extended beyond technical skills to effectively adapting to HighTechXL's work environment and workflow. It enabled me to seamlessly integrate the portfolio tool into the company's operations.
+I also improved my problem-solving skills by finding solutions to multiple issues, such as the login system. This experience made me more resourceful and effective in tackling technical challenges.
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

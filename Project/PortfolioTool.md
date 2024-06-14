@@ -282,7 +282,7 @@ The main feedback I received during my halfway meeting at school was that it wou
 
 However, making the form reactive for each company wouldn't be beneficial for HighTechXL because the data they need from each venture doesn't change depending on the venture. Instead, I had another idea: to make the investment form reactive. The investment step includes a part where the type of investment needs to be selected, such as equity or a CLA (Convertible Loan Agreement). These investments require completely different information to be filled in. For example, equity investments need details about share percentages and valuations, while a CLA requires information about loan terms and conversion conditions. 
 
-#### Type
+#### Reactive investmentTypes
 After I started sketching out all the necessary information for each type of investment, John, the CEO of HighTechXL, explained to me that although I was free to implement the reactive investments, it was not beneficial for several reasons. 
 
 - First, for HighTechXL, the main pieces of information from an investment that are interesting to see in the portfolio are the type of investment, the stake HighTechXL has, and the amount that has been invested. This information can then be used to calculate the worth of the company, while any additional details can be looked up if needed. 
@@ -293,14 +293,14 @@ After I started sketching out all the necessary information for each type of inv
 
 Because of this, I decided not to proceed any further with expanding the reactive aspects of the investment form.
 
-#### Fund
+#### Fund autofill
 Another part of the investment form that could be expanded was the way an investor was added or selected. Initially, ventures would fill in the information of the fund and its investor (email, name, chamber of commerce number, etc.), which would then be added as an investor in a separate table in the database. The problem was that there was no way to select investors already in the database. Every time a new investment was added, a new investor entry would also be created, even if multiple ventures had investments from the same investor.
 
 Normally, this wouldn't be a big problem because we could filter by the name of an investor to find all the ventures that have received investments from that investor. Unfortunately, this approach wouldn't work reliably because people often write names differently, using various capitalizations or spacing.
 
 The first thing I did to try and solve the problem was to split the investor table into two separate tables: a fund table and an investment manager table. The fund table would store the name of the investment fund and the Chamber of Commerce number, while the investment manager table would store the name and email of the manager. This way, I could keep track of the fund and manager separately. The fund could be linked to multiple investments, and the manager could be separate for each investment, as the manager's information was only necessary for contacting purposes.
 
-After splitting the table, I needed a way to not only select a fund but also create a new fund. Although I could have implemented this with another new form, I felt that it would be too much to have another form pop up just for adding a fund. That is why I decided to use a type of autocomplete feature commonly seen when entering an address.
+After splitting the table, I needed a way to not only select a fund but also create a new fund. Although I could have implemented this with another new form, another crud application would add a lot of extra steps to filling out the form. That is why I looked at how other applications handle similar issues and discovered the autofill feature commonly used for filling in addresses. Although not entirely the same as filling in funds, I altered this concept to fit my project.
 
 The idea was that the user would be able to start typing a fund name, and all funds with similar names already in the database would pop up. The user could then choose to select a fund from the list, which would automatically fill in the Chamber of Commerce number for the selected fund. If the venture had an investment with a new investor, they could simply fill in the fund details without selecting one of the "autocomplete options," which would also add the fund to the database.
 

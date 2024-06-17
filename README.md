@@ -71,7 +71,8 @@ I also improved my problem-solving skills by finding solutions to multiple issue
 
 ### What could have gone better
 
-At the beginning of the internship, I did not communicate effectively with my company mentor regarding my school commitments. I underestimated the importance of keeping them informed about my academic responsibilities. This lack of communication led to feedback midway through the internship that I had not sufficiently discussed my school obligations. To address this, I made a concerted effort to provide regular updates to my mentor on both my school progress and the project's development in the latter part of the internship.
+In the first half of the internship, I did not communicate enough with my company mentor regarding school because I did not think that HighTechXL and my mentor would be interested in what was going on with the school side of the internship. During the mid-term assessment, I received feedback from my company mentor that while I communicated well about my project work and progress, I did not provide much information on my progress regarding school. After this feedback, I made sure to provide regular updates to my mentor on both my school progress and the project's development for the rest of the internship.
+
 
 ***
 ## Conclusion

@@ -417,7 +417,9 @@ The database also offered versioning capabilities, allowing HighTechXL to track 
 
 Additionally, Power BI's capability to query data directly from the database simplified the process of loading and updating data in Power BI, enhancing the organization's ability to analyze and visualize venture data effectively.
 
-Regarding my portfolio tool, unfortunately, at the time of writing this, only one of the ventures has filled in the form. Therefore, I am still waiting for feedback from the remaining ventures before I can draw conclusions about the portfolio tool as a whole.
+Regarding my portfolio tool, from the feedback that I have received so far on the portfolio tool, the reactions have been positive, indicating its potential benefit for gathering information on ventures. However, one common critique is that there are too few fields and insufficient information being collected to make create a portfolio with enough information that would atract investors.
+
+I have unfortunately only received feedback from a couple of the ventures that I sent the feedback form to, so I'm still waiting on some of them to form a definitive conclusion.
 
 ***
 ## Lessons Learned

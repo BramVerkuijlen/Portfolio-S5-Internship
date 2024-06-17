@@ -81,8 +81,7 @@ In the first half of the internship, I did not communicate enough with my compan
 
 ***
 ## Conclusion
-
-Throughout my time at HighTechXL, I have encountered numerous challenges and achievements that have shaped my professional growth and contributed to the organization's goals. 
+Throughout my time at HighTechXL, I have encountered numerous challenges and achievements that have shaped my professional growth and contributed to the organization's goals.
 
 ### Regarding the project
 
@@ -93,14 +92,9 @@ However, migrating to a database involves a learning curve, and ideally, direct 
 From the feedback that I have received so far on the portfolio tool, the reactions have been positive, indicating its potential benefit for gathering information on ventures. However, one common critique is that there are too few fields and insufficient information being collected to make create a portfolio with enough information that would atract investors.
 
 ### My time at HighTechXL
-I had much fun by attending many of the events inside and outside of hightechxl, such as she can excell the tech partners event and many more. And the networking "sessions" that came with it. I also really liked taking part in a relative small company, working in it and seeing how the company functions. and learning more about venture building in the process.
+During my time at HighTechXL, I had a lot of fun meeting and working with new people. I attended various events both inside and outside the organization, such as the "She Can Excel" event and the Tech Partners event. These events provided excellent opportunities for networking, and I thoroughly enjoyed the sessions that came with them.
 
-Learning Angular and EF Core during the project was a significant accomplishment for me, as it expanded my skill set and enabled me to develop a more sophisticated API and front-end components for the portfolio tool.
-
-Throughout the project, I demonstrated adaptability by adjusting my workflow to align with HighTechXL's dynamic environment and diverse team culture. This flexibility allowed me to work independently while staying connected with stakeholders and seeking regular feedback, which was crucial for refining the portfolio tool and ensuring its relevance and usability.
-
-In conclusion, my tenure at HighTechXL has been marked by continuous learning, technical advancement, and collaborative engagement. I leave with a deeper understanding of data management, front-end development, and agile methodologies, along with valuable experience in adapting to multicultural work environments. I am grateful for the opportunities and challenges that have enriched my professional journey, and I look forward to applying these skills and insights in future endeavors.
-
+One of the aspects I appreciated the most was being part of a relatively small company. This experience allowed me to work closely with the team, observe how the company operates, and gain valuable insights into venture building. I learned a lot about the new technologies and the ventures HighTechXL helped to build.
 
 ***
 ## Proof of Learning Outcomes

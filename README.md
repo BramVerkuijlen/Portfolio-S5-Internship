@@ -67,7 +67,12 @@ Throughout the project, I also learned a lot about HighTechXL, venture building,
 I also improved my problem-solving skills by finding solutions to multiple issues, such as the login system. This experience made me more resourceful and effective in tackling technical challenges.
 
 ### What went well
-**NULL**
+
+HighTechXL is a very diverse company with people coming from all over the world, making English the primary spoken language. During the project, I managed to adapt quickly to HighTechXL's environment and the diverse group of people within and around the company.
+
+Although I had prior experience with .NET C# and Vue.js, Angular was completely new to me, and I had very little experience with EF Core. However, I managed to learn Angular and EF Core pretty quickly during the project.
+
+I managed to work independently throughout the project while making sure that I still recieved enough feedback, stayed in touch with my stakeholders enough, that both my stakeholders and company mentor were kept up to date regarding the project's progress.
 
 ### What could have gone better
 

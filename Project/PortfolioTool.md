@@ -17,7 +17,6 @@
 ***
 ## Project Overview
 
-
 ### Introduction
 The Portfolio Tool is designed to streamline the process of data collection from existing ventures. As a software engineering intern, my project aimed to automate and standardize the collection of quarterly updates from startups, which had traditionally been handled manually through emails and phone calls. This manual process often resulted in inconsistent and sometimes incomplete data, complicating the task of maintaining an up-to-date and clear view of each startup's progress within the HighTechXL ecosystem. 
 
@@ -28,9 +27,14 @@ The primary purpose of this project was to develop the Portfolio Tool to replace
 
 ### Technical Implementation
 
-Central to the Portfolio Tool is an online form designed specifically for ventures to easily provide HighTechXL with data about their businesses. Once this data is submitted, it is automatically stored in a well-structured database.
+The Portfolio Tool is an online form designed specifically for ventures to easily provide HighTechXL with data about their businesses. Once this data is submitted, it is automatically stored in a well-structured database.
 
 After the data is securely stored, the Portfolio team uses PowerBI to access and analyze the venture data. This helps them to create detailed, visually appealing portfolios that can be presented to potential investors.
+
+<div style="text-align: center;">
+  <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/ExmplePowerBi.png" style="max-width: 30%;">
+  <p><em>Example of a Power BI Portfoli0, altered with mock data.</em></p>
+</div>
 
 ### Role
 As the main developer of the Portfolio Tool, I was responsible for all aspects of its development, from design and architecture to database creation and integration. My tasks included:

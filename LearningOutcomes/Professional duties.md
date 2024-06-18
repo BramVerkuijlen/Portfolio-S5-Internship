@@ -12,12 +12,12 @@ During the project, I ensured to communicate with my company mentor and the port
 ## Code Quality
 - I made sure to use company standards and documented the code.
 - I conducted multiple user tests throughout the project.
-- Conducted a significant user test with several ventures from HighTechXL [proof].
+- Conducted a significant user test with several ventures from HighTechXL which can be found [here](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md) in the developement process.
 
 ## Design and Architecture
-- During the project, I created multiple designs for the database and UI design [link to proof].
+- During the project, I created multiple designs for the database and UI design which can be found [here](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md) in the developement process.
 
 ## Reflection and Learning
-- You can see my reflection and learning on the project here, and of the entire internship [here].
+- You can see my reflection and learning on the project which can be found [here](https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/Project/PortfolioTool.md) under Lessons Learned, and of the entire internship [here](https://github.com/BramVerkuijlen/Portfolio-S5-Internship).
 
 <small><i><a href="https://github.com/BramVerkuijlen/Portfolio-S5-Internship"><- Back to the portfolio</a></i></small>

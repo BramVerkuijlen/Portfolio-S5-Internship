@@ -19,7 +19,7 @@
 
 
 ### Introduction
-The Portfolio Tool is designed to streamline the process of data collection from new and existing ventures. As a software engineering intern, my project aimed to automate and standardize the collection of quarterly updates from startups, which had traditionally been handled manually through emails and phone calls. This manual process often resulted in inconsistent and sometimes incomplete data, complicating the task of maintaining an up-to-date and clear view of each startup's progress within the HighTechXL ecosystem. 
+The Portfolio Tool is designed to streamline the process of data collection from existing ventures. As a software engineering intern, my project aimed to automate and standardize the collection of quarterly updates from startups, which had traditionally been handled manually through emails and phone calls. This manual process often resulted in inconsistent and sometimes incomplete data, complicating the task of maintaining an up-to-date and clear view of each startup's progress within the HighTechXL ecosystem. 
 
 By replacing these outdated manual methods with an automated, standardized system, the Portfolio Tool ensures data consistency and quality. Additionally, this initiative significantly enhances information storage capabilities, allowing for robust data management and easier access—key factors in providing better support and resource allocation within HighTechXL.
 

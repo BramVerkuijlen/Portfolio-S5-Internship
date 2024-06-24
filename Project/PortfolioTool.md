@@ -33,7 +33,7 @@ After the data is securely stored, the Portfolio team uses PowerBI to access and
 
 <div style="text-align: center;">
   <img src="https://github.com/BramVerkuijlen/Portfolio-S5-Internship/blob/main/images/ExmplePowerBi.png" style="max-width: 30%;">
-  <p><em>Example of a Power BI Portfoli0, altered with mock data.</em></p>
+  <p><em>Example of a Power BI Portfolio, altered with mock data.</em></p>
 </div>
 
 ### Role
